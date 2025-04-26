@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Wen Xiaolin"
+description              : " am now a PhD student at Nanyang Technological University (NTU) under the guidance of Prof. Yong Wang. In 2023, I got my master's degree in computer science at Vision Computing Lab, College of Computer Sicence, Sichuan University, and my supervisor was Prof. Min Zhu. In 2020, I got my dual bachelor's degree in computer science and technology & financial engineering at Sichuan University. I have also served as a reviewer for major conferences and journals in visualization and HCI, including ACM CHI, IEEE PacificVis, and ChinaVis. My research interests include Human-Computer Interaction and Data Visualization. Now, I am working on Visualization for Web3 Fraud Detection and Vis+LLM."
+repository               : "Selvalim/Selvalim.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Wen Xiaolin"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/life1.png"
   bio              : "Nanyang Technological University"
   location         : "Singapore"
   employer         :
