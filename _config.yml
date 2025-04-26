@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Wen Xiaolin"
-description              : "I am now a PhD student at Nanyang Technological University (NTU). My research interests are Data Visualization and HCI. Now, I am working on Visualization for Web3 Fraud Detection and Vis+LLM."
+description              : "A day without dancing is a silent sorrow to the soul of life."
 repository               : "Selvalim/Selvalim.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Wen Xiaolin"
+  name             : "Wen Xiaolin (温啸林)"
   avatar           : "images/life1.png"
   bio              : "Nanyang Technological University"
   location         : "Singapore"
