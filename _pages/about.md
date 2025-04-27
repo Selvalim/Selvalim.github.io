@@ -217,7 +217,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [MDIVis: Visual Analytics of Multiple Destination Images on Tourism User Generated Content](./paperInfo/MDVis.pdf)
+  [MDIVis: Visual Analytics of Multiple Destination Images on Tourism User Generated Content](./paperInfo/MDIVis.pdf)
 
   Changlin Li, Mengqi Cao, **Xiaolin Wen**, Haotian Zhu, Shangsong Liu, Min Zhu.
 
