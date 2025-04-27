@@ -276,7 +276,7 @@ Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou
 - *2023.09*, **Panel Discussion: On-chain Data and Web3 Security**, Singapore Management University, Singapore.
 
 
-# 💻 Experiences
+# 💻 Internships
 
 - *2024.07 – 2024.12*, **Research Engineer**, [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore.  
   - Visualization + LLM.
