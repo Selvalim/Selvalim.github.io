@@ -259,16 +259,38 @@ Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou
 
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04* Best Paper Honorable Mention, PacificVis 2025 Journal Track  
+- *2023.06* Research Star, College of Compueter Science, Sichuan University (5/319)
+- *2023.06* Excellent Graduation Thesis, College of Compueter Science, Sichuan University (5/319)
+- *2021.12* The First Price of Tencent Scholarship, Sichuan University. (3/319)
+- *2021.06* The Award of Excellence, ChinaVis Challenge 2021. (27/77)
+- *2020.05* The Award of Excellence, ChinaVis Challenge 2020. (32/96)
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.01 - now*, Doctor of Philosophy (PhD) student in College of Computing & Data Science, Nanyang Technological University, Singapore. 
+- *2020.09 - 2023.06*, Master's Degree in Computer Science and Technology, Sichuan University, China.
+- *2016.09 - 2020.06*, Dual Bachelor's Degree in Computer Science and Technology & Financial Engineering, Sichuan University, China.
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2024.01*, **Visualization for Web3 Fraud Detection**, Sichuan University, China.
+- *2023.09*, **Panel Discussion: On-chain Data and Web3 Security**, Singapore Management University, Singapore.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+# 💻 Experiences
+
+- *2024.07 – 2024.12*, **Research Engineer**, [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore.  
+  - Visualization + LLM.
+  - Visualization for software engineering.
+  - Visualization for FinTech and Web3.
+
+- *2023.09 – 2024.07*, **Research Engineer**, [Singapore Management University](https://www.smu.edu.sg/), Singapore.  
+  - Visual Identification of Ponzi Scheme on Ethereum.
+  - Visualization for FinTech and Web3.
+
+- *2022.02 – 2022.09*, **Research Assistant**, [Singapore Management University](https://www.smu.edu.sg/), Singapore.  
+  - Dynamic Weighted Graph Visualization.
+  - Visual detection of Wash Trading in NFT markets.
+  - Visual Identification of Ponzi Scheme on Ethereum.
+
+- *2021.10 – 2021.12*, **Visiting Student**, [Southern University of Science and Technology](https://www.sustech.edu.cn/en/), China.  
+  - Dynamic Weighted Graph Visualization.
