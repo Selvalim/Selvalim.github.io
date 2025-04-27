@@ -51,6 +51,17 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EuroVis 2025</div><img src='paperInfo/IntelliCircos.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[IntelliCircos: A Data-driven and AI-powered Authoring Tool for Circos Plots](./paperInfo/IntelliCircos.pdf)
+
+Mingyang Gu, Jiamin Zhu, Qipeng Wang, Fengjie Wang, **Xiaolin Wen**, Yong Wang, and Min Zhu.
+
+Computer Graphics Forum (Proceedings of EuroVis 25). 2025. 
+
+</div>
+</div> 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
