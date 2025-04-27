@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-*Xiaolin Wen 温啸林 (Shawn)*
+# *Xiaolin Wen 温啸林 (Shawn)*
 I am now a PhD student at Nanyang Technological University (NTU) under the guidance of Prof. Yong Wang. In 2023, I got my master's degree in computer science at Vision Computing Lab, College of Computer Sicence, Sichuan University, and my supervisor was Prof. Min Zhu. In 2020, I got my dual bachelor's degree in computer science and technology & financial engineering at Sichuan University. I have also served as a reviewer for major conferences and journals in visualization and HCI, including IEEE VIS, ACM CHI, IEEE PacificVis, ChinaVis, and TWEB.
 
 My research interests include Human-Computer Interaction and Data Visualization.
@@ -26,8 +26,9 @@ Now, I am working on *Visualization for Fintech* and *Vis+LLM*.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04*: &nbsp;🎉🎉 Our paper, PrettiSmart, got the *best paper honorable mention award* at Pacific Vis 2025 Journal Track!
+- *2025.01*: 🎓 Become a PhD student at Nanyang Technological University, Singapore!
+
 
 # 📝 Publications 
 
