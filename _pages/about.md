@@ -102,7 +102,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [VIOLET: Visual Analytics for Explainable Quantum Neural Networks](./paperInfo/VIOLET.pdf)
+  [VIOLET: Visual Analytics for Explainable Quantum Neural Networks](./paperInfo/violet.pdf)
 
   Shaolun Ruan, Zhiding Liang, Qiang Guan, Paul Griffin, **Xiaolin Wen**, Yanna Lin and Yong Wang.
 
