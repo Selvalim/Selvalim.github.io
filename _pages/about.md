@@ -63,6 +63,24 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 </div>
 </div> 
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">TVCG 2025</div>
+      <img src='paperInfo/PonziLens+.png' alt="PonziLens+" width="80%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [PonziLens+: Visualizing Bytecode Actions for Smart Ponzi Scheme Identification](./paperInfo/PonziLens+.pdf)
+
+  **Xiaolin Wen**, Tai D. Nguyen, Shaolun Ruan, Qiaomu Shen, Jun Sun, Feida Zhu, and Yong Wang.
+
+  IEEE Transactions on Visualization and Computer Graphics. 2025. 
+  </div>
+</div>
+
+
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
