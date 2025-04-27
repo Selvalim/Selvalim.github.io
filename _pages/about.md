@@ -59,10 +59,9 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 **Xiaolin Wen**, Tai D. Nguyen, Lun Zhang, Jun Sun, and Yong Wang.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. <span style="color:#c12c1f; font-weight:bold">（Best Paper Honorable Mention）</span>
 </div>
-</div>
+</div> 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
