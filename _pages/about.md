@@ -52,14 +52,16 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PrettiSmart: Visual Interpretation of Smart Contracts via Simulationn](./paperInfo/PrettiSmart.pdf)
 
 **Xiaolin Wen**, Tai D. Nguyen, Lun Zhang, Jun Sun, and Yong Wang.
 
-IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. <span style="color:#c12c1f; font-weight:bold">（Best Paper Honorable Mention）</span>
+IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. 
+
+<span style="color:#c12c1f; font-weight:bold">（Best Paper Honorable Mention）</span>
 </div>
 </div> 
 
@@ -67,7 +69,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   <div class='paper-box-image'>
     <div>
       <div class="badge">TVCG 2025</div>
-      <img src='paperInfo/PonziLens+.png' alt="PonziLens+" width="80%">
+      <img src='paperInfo/PonziLens+.png' alt="PonziLens+" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
