@@ -172,6 +172,77 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">CS 2022</div>
+      <img src='paperInfo/EOS.jpg' alt="Blockchain Community Evolution" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Visual Analysis Method of Blockchain Community Evolution Based on DPoS Consensus Mechanism](./paperInfo/EOS.pdf)
+
+  **Xiaolin Wen**, Changlin Li, Shangsong Liu, Xinyi Zhang, Min Zhu.
+
+  Computer Science, 2022. (Chinese Journal)
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">JoV 2022</div>
+      <img src='paperInfo/triplan.png' alt="TriPlan" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [TriPlan: An Interactive Visual Analytics Approach for Better Tourism Route Planning](./paperInfo/TriPlan.pdf)
+
+  Xinyi Zhang, Xiao Pang, **Xiaolin Wen**, Fengjie Wang, Changlin Li, Min Zhu.
+
+  Journal of Visualization, 2022.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">VI 2022</div>
+      <img src='paperInfo/MDVis.png' alt="MDIVis" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [MDIVis: Visual Analytics of Multiple Destination Images on Tourism User Generated Content](./paperInfo/MDVis.pdf)
+
+  Changlin Li, Mengqi Cao, **Xiaolin Wen**, Haotian Zhu, Shangsong Liu, Min Zhu.
+
+  Visual Informatics, 2022.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">JoV 2021</div>
+      <img src='paperInfo/MulUBA.png' alt="MulUBA" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [MulUBA: Multi-level Visual Analytics of User Behaviors for Improving Online Shopping Advertising](./paperInfo/mulUBA.pdf)
+
+Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou, Min Zhu.
+
+  Journal of Visualization, 2021.
+
+  </div>
+</div>
 
 
 # 🎖 Honors and Awards
