@@ -100,6 +100,78 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">CHI 2023</div>
+      <img src='paperInfo/NFTDisk.png' alt="NFTDisk" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [NFTDisk: Visual Detection of Wash Trading in NFT Markets](./paperInfo/NFTDisk.pdf)
+
+  **Xiaolin Wen**, Yong Wang, Xuanwu Yue, Feida Zhu, Min Zhu.
+
+  ACM CHI Conference on Human Factors in Computing Systems, 2023.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">CHI EA 2023</div>
+      <img src='paperInfo/codewilltell.png' alt="Code Will Tell" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Code Will Tell: Visual Identification of Ponzi Schemes on Ethereum](./paperInfo/codewilltell.pdf)
+
+  **Xiaolin Wen**, Kim Siang Yeo, Yong Wang, Ling Cheng, Feida Zhu, Min Zhu.
+
+  ACM CHI Conference on Human Factors in Computing Systems, Extended Abstract, 2023.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">CG&A 2023</div>
+      <img src='paperInfo/diffseer.png' alt="DiffSeer" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [DiffSeer: Difference-based Dynamic Weighted Graph Visualization](./paperInfo/diffseer.pdf)
+
+  **Xiaolin Wen**, Yong Wang, Meixuan Wu, Fengjie Wang, Xuanwu Yue, Qiaomu Shen, Yuxin Ma, Min Zhu.
+
+  IEEE Computer Graphics and Applications, 2023.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">JoV 2023</div>
+      <img src='paperInfo/warehouselens.png' alt="WarehouseLens" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [WarehouseLens: Visualizing and Exploring Turnover Events of Digital Warehouse](./paperInfo/warehouselens.pdf)
+
+  Fuqiu Chen, Jizhou Li, Fengjie Wang, Shangsong Liu, **Xiaolin Wen**, Pengyuan Li, Min Zhu.
+
+  Journal of Visualization, 2023.
+
+  </div>
+</div>
+
 
 
 # 🎖 Honors and Awards
