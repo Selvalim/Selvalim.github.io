@@ -52,7 +52,7 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PrettiSmart: Visual Interpretation of Smart Contracts via Simulationn](./paperInfo/PrettiSmart.pdf)
@@ -63,7 +63,6 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 </div>
 </div> 
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
