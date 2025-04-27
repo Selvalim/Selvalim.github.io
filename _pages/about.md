@@ -27,6 +27,8 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 # 🔥 News
 - *2025.04*: 🎉🎉 **PrettiSmart** won the **Best Paper Honorable Mention Award** in PacificVis25 (TVCG Track)!
+- *2025.04*: 🎤 Gave an oral presentation for the published paper **PrettiSmart** at **PacificVis 2025**!
+- *2025.04*: 📜 **IntelliCircos** is accepted by **EuroVis 2025**!
 - *2025.01*: 🎓 Become a PhD student at **Nanyang Technological University**, Singapore!
 - *2024.12*: 📜 **PrettiSmart** is accepted by **PacificVis 2025 (TVCG Track)**!
 - *2024.12*: 📜 **PonziLens+** is accepted by **IEEE Transactions on Visualization and Computer Graphics (TVCG)**!
