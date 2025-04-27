@@ -82,6 +82,24 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">TVCG 2024</div>
+      <img src='paperInfo/VIOLET.png' alt="VIOLET" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [VIOLET: Visual Analytics for Explainable Quantum Neural Networks](./paperInfo/VIOLET.pdf)
+
+  Shaolun Ruan, Zhiding Liang, Qiang Guan, Paul Griffin, **Xiaolin Wen**, Yanna Lin and Yong Wang.
+
+  IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 24 TVCG track). 2024.
+
+  </div>
+</div>
+
 
 
 # 🎖 Honors and Awards
