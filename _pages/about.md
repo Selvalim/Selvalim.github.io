@@ -74,6 +74,8 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. 
 
+[Project Page](./_pages/prettismart.md)
+
 <span style="color:#c12c1f; font-weight:bold">(Best Paper Honorable Mention)</span>
 </div>
 </div> 
