@@ -74,7 +74,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. 
 
-[Project Page](./_pages/prettismart.md)
+[Project Page](./_pages/prettismart.html) [PDF](./paperInfo/PrettiSmart.pdf)
 
 <span style="color:#c12c1f; font-weight:bold">(Best Paper Honorable Mention)</span>
 </div>
@@ -94,6 +94,8 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   **Xiaolin Wen**, Tai D. Nguyen, Shaolun Ruan, Qiaomu Shen, Jun Sun, Feida Zhu, and Yong Wang.
 
   IEEE Transactions on Visualization and Computer Graphics. 2025. 
+
+  [PDF](./paperInfo/PonziLens+.pdf)
   </div>
 </div>
 
