@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrettiSmart: Visual Interpretation of Smart Contracts via Simulation</title>
+  <style>
+    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+    header { background-color: #4a90e2; color: #fff; padding: 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2rem; }
+    .authors, .affiliations { margin: 0.5rem 0; font-size: 1.3rem; }
+    main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    section { margin-bottom: 2rem; }
+    section h2 { border-bottom: 2px solid #4a90e2; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #4a90e2; }
+    ul { list-style-type: disc; padding-left: 1.5rem; }
+    .media iframe { width: 100%; height: 400px; border: none; }
+    footer { background-color: #eee; text-align: center; padding: 1rem; font-size: 0.9rem; color: #666; }
+    .project-author {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+      border-radius: 15px;
+    }
+    .author-wrapper {
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .author-wrapper:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .author-name a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+      font-size: 1.1rem;
+      border-bottom: 2px solid transparent;
+      transition: color 0.3s, border-color 0.3s;
+    }
+    .author-name a:hover {
+      color: #4a90e2;
+      border-color: #4a90e2;
+    }
+    .author-afflication {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PrettiSmart: Visual Interpretation of Smart Contracts via Simulation</h1>
+  </header>
+
+  <main>
+    <div class="project-author">
+        <div class="author-wrapper">
+            <div class="author-name"><a href="https://wenxiaolin.com/" target="_blank">Xiaolin Wen</a></div>
+            <div class="author-afflication">NTU</div>
+        </div>
+        <div class="author-wrapper">
+            <div class="author-name"><a href="https://sg.linkedin.com/in/tai-duy-nguyen" target="_blank">Tai D. Nguyen</a></div>
+            <div class="author-afflication">SMU</div>
+        </div>
+        <div class="author-wrapper">
+            <div class="author-name"><a href="https://www.gopluslabs.io/" target="_blank">Lun Zhang</a></div>
+            <div class="author-afflication">GoPlus Security</div>
+        </div>
+        <div class="author-wrapper">
+            <div class="author-name"><a href="https://faculty.smu.edu.sg/profile/sun-jun-6816" target="_blank">Jun Sun</a></div>
+            <div class="author-afflication">SMU</div>
+        </div>
+        <div class="author-wrapper">
+            <div class="author-name"><a href="https://yong-wang.org/" target="_blank">Yong Wang</a></div>
+            <div class="author-afflication">NTU</div>
+        </div>
+    </div>
+
+    <img src="../paperInfo/PrettiSmart.png" alt="PrettiSmart Visualization" style="display: block; margin: 1rem auto; max-width: 100%; height: auto;" />
+
+
+
+
+    <section class="abstract">
+      <h2>Abstract</h2>
+      <p>
+        Smart contracts are the fundamental components of blockchain technology. They are programs to determine cryptocurrency transactions, and are irreversible once deployed, making it crucial for cryptocurrency investors to understand the cryptocurrency transaction behaviors of smart contracts comprehensively. However, it is a challenging (if not impossible) task for investors, as they do not necessarily have a programming background to check the complex source code. Even for investors with certain programming skills, inferring all the potential behaviors from the code alone is still difficult, since the actual behaviors can be different when different investors are involved. To address this challenge, we propose PrettiSmart, a novel visualization approach via execution simulation to achieve intuitive and reliable visual interpretation of smart contracts. Specifically, we develop a simulator to comprehensively capture most of the possible real-world smart contract behaviors, involving multiple investors and various smart contract functions. Then, we present PrettiSmart to intuitively visualize the simulation results of a smart contract, which consists of two modules: The Simulation Overview Module is a barcode-based design, providing a visual summary for each simulation, and the Simulation Detail Module is an augmented sequential design to display the cryptocurrency transaction details in each simulation, such as function call sequences, cryptocurrency flows, and state variable changes. It can allow investors to intuitively inspect and understand how a smart contract will work. We evaluate PrettiSmart through two case studies and in-depth user interviews with 12 investors. The results demonstrate the effectiveness and usability of PrettiSmart in facilitating an easy interpretation of smart contracts.      </p>
+    </section>
+
+    <section class="motivation">
+      <h2>Motivation</h2>
+      <p>
+        Smart contracts are irreversible once deployed, making it crucial for investors to comprehend their transaction behaviors. However, understanding smart contracts from source code is challenging for non-programmers. Even programmers struggle to foresee real-world behaviors involving multiple users. PrettiSmart addresses this challenge by simulating diverse scenarios and visualizing the results in an intuitive way.
+      </p>
+    </section>
+
+    <section class="demo">
+      <h2>Demo Video</h2>
+      <iframe 
+        src="https://www.youtube.com/embed/DjMfb2Lq59M?si=R1CnFxZzj8LKYNko" 
+        title="PrettiSmart Demo Video" 
+        style="display: block; margin: 1rem auto;width: 800px; height: 400px; border: none;" 
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section class="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Simulation Overview Module: Barcode-based summary of balance changes and function involvement</li>
+        <li>Simulation Detail Module: Augmented sequential visualization of function calls, flows, state changes</li>
+        <li>Interactive exploration of contract behaviors, including popups and highlights</li>
+        <li>Supports multiple users and complex transaction patterns</li>
+      </ul>
+    </section>
+
+    <section class="evaluation">
+      <h2>Evaluation</h2>
+      <p>
+        PrettiSmart was evaluated through two case studies and user interviews with 12 investors, including both technical and non-technical participants. Results demonstrated its effectiveness in helping users understand smart contract behaviors, detect risks, and intuitively interpret economic models.
+      </p>
+    </section>
+
+    <section class="resources">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://arxiv.org/abs/2412.18484" target="_blank">Paper (arXiv)</a></li>
+        <li><a href="https://github.com/Selvalim/PrettiSmart" target="_blank">Soure Code (Github)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 PrettiSmart Project Team</p>
+  </footer>
+</body>
+</html>
