@@ -172,6 +172,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   **Xiaolin Wen**, Yong Wang, Meixuan Wu, Fengjie Wang, Xuanwu Yue, Qiaomu Shen, Yuxin Ma, Min Zhu.
 
   IEEE Computer Graphics and Applications, 2023.
+  
   [PDF](./paperInfo/diffseer.pdf)
   </div>
 </div>
