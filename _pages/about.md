@@ -114,6 +114,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
   IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 24 TVCG track). 2024.
 
+  [PDF](./paperInfo/violet.pdf)
   </div>
 </div>
 
@@ -132,6 +133,8 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
   ACM CHI Conference on Human Factors in Computing Systems, 2023.
 
+[PDF](./paperInfo/NFTDisk.pdf)
+[Slides](https://yong-wang.org/slides/CHI23-Xiaolin-NFTDisk.pdf)
   </div>
 </div>
 
@@ -150,6 +153,8 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
   ACM CHI Conference on Human Factors in Computing Systems, Extended Abstract, 2023.
 
+[PDF](./paperInfo/codewilltell.pdf)
+[Poster](./paperInfo/ponziposter.pdf)
   </div>
 </div>
 
@@ -167,7 +172,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   **Xiaolin Wen**, Yong Wang, Meixuan Wu, Fengjie Wang, Xuanwu Yue, Qiaomu Shen, Yuxin Ma, Min Zhu.
 
   IEEE Computer Graphics and Applications, 2023.
-
+  [PDF](./paperInfo/diffseer.pdf)
   </div>
 </div>
 
@@ -186,6 +191,8 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
   Journal of Visualization, 2023.
 
+
+  [PDF](./paperInfo/warehouselens.pdf)
   </div>
 </div>
 
@@ -203,6 +210,8 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
   **Xiaolin Wen**, Changlin Li, Shangsong Liu, Xinyi Zhang, Min Zhu.
 
   Computer Science, 2022. (Chinese Journal)
+
+  [PDF](./paperInfo/EOS.pdf)
 
   </div>
 </div>
@@ -222,6 +231,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
   Journal of Visualization, 2022.
 
+  [PDF](./paperInfo/TriPlan.pdf)
   </div>
 </div>
 
@@ -240,6 +250,8 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
   Visual Informatics, 2022.
 
+
+  [PDF](./paperInfo/MDIVis.pdf)
   </div>
 </div>
 
@@ -258,6 +270,7 @@ Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou
 
   Journal of Visualization, 2021.
 
+  [PDF](./paperInfo/mulUBA.pdf)
   </div>
 </div>
 
