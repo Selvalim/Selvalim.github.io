@@ -62,7 +62,7 @@ Mingyang Gu, Jiamin Zhu, Qipeng Wang, Fengjie Wang, **Xiaolin Wen**, Yong Wang, 
 
 Computer Graphics Forum (Proceedings of EuroVis 25). 2025. 
 
-[PDF](https://arxiv.org/pdf/2503.24021)
+[PDF](https://arxiv.org/pdf/2503.24021) [Source Code](https://github.com/KXXH/intelliCircos)  
 </div>
 </div> 
 
