@@ -77,7 +77,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
 [Project Page](./_pages/prettismart.html) [PDF](./paperInfo/PrettiSmart.pdf)
 
-<span style="color:#c12c1f; font-weight:bold">(Best Paper Honorable Mention)</span>
+<span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
 </div>
 </div> 
 
