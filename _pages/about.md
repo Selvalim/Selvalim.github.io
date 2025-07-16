@@ -53,6 +53,35 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 
 # 📝 Publications 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/envisage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Envisage: Towards Expressive Visual Graph Querying](./paperInfo/envisage.pdf)
+
+**Xiaolin Wen**, Qishuang Fu, Shuangyue Han, Yichen Guo, Joseph K. Liu, and Yong Wang.
+
+IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
+
+[Project Page](./_pages/envisage.html) [PDF](./paperInfo/envisage.pdf) [Source Code](https://github.com/Selvalim/VGQ-front)  
+</div>
+</div> 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/LLM-DesignStudy' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles](https://arxiv.org/abs/2507.10024)
+
+Shaolun Ruan, Rui Sheng, **Xiaolin Wen**, Jiachen Wang, Tianyi Zhang, Yong Wang, Tim Dwyer, and Jiannan Li.
+
+IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
+
+[PDF](https://arxiv.org/abs/2507.10024) 
+</div>
+</div> 
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EuroVis 2025</div><img src='paperInfo/IntelliCircos.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
