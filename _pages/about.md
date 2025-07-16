@@ -26,6 +26,7 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 
 # 🔥 News
+- *2025.07*: 🎉🎉 Two papers (**Envisage** and **Qualitative Study for LLM-assisted Design Study Process**) are accepted by **IEEE VIS 2025**!
 - *2025.04*: 🎉🎉 **PrettiSmart** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in PacificVis25 (TVCG Track)!
 - *2025.04*: 🎤 Gave an oral presentation for the published paper **PrettiSmart** at **PacificVis 2025**!
 - *2025.04*: 📜 **IntelliCircos** is accepted by **EuroVis 2025**!
@@ -68,7 +69,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 </div>
 </div> 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/LLM-DesignStudy' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles](https://arxiv.org/abs/2507.10024)
