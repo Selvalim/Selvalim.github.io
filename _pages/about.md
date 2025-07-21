@@ -26,6 +26,7 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 
 # 🔥 News
+<div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
 - *2025.07*: 🎉🎉 Two papers (**Envisage** and **Qualitative Study for LLM-assisted Design Study Process**) are accepted by **IEEE VIS 2025**!
 - *2025.04*: 🎉🎉 **PrettiSmart** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in PacificVis25 (TVCG Track)!
 - *2025.04*: 🎤 Gave an oral presentation for the published paper **PrettiSmart** at **PacificVis 2025**!
@@ -50,6 +51,7 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 - *2021.10*: 🏫 Became a Visiting Student at **Southern University of Science and Technology**!
 - *2020.09*: 🎓 Joined **Visual Computing Lab** at **Sichuan University** to pursue a Master's degree!
 - *2020.06*: 🎓 Graduated from **Sichuan University** with dual Bachelor's degrees in **Computer Science** and **Financial Engineering**!
+</div>
 
 
 
@@ -126,7 +128,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
   IEEE Transactions on Visualization and Computer Graphics. 2025. 
 
-  [PDF](./paperInfo/PonziLens+.pdf)
+  [PDF](./paperInfo/PonziLens+.pdf) [Demo Video](https://youtu.be/wqjmFaLUrns)
   </div>
 </div>
 
