@@ -27,6 +27,7 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
+- *2025.08*: 🎉🎉 Our VIS2025 paper, **"Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in IEEE VIS 2025!
 - *2025.07*: 🎉🎉 Two papers (**Envisage** and **Qualitative Study for LLM-assisted Design Study Process**) are accepted by **IEEE VIS 2025**!
 - *2025.04*: 🎉🎉 **PrettiSmart** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in PacificVis25 (TVCG Track)!
 - *2025.04*: 🎤 Gave an oral presentation for the published paper **PrettiSmart** at **PacificVis 2025**!
@@ -81,6 +82,7 @@ Shaolun Ruan, Rui Sheng, **Xiaolin Wen**, Jiachen Wang, Tianyi Zhang, Yong Wang,
 IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
 
 [PDF](https://arxiv.org/abs/2507.10024) 
+<span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
 </div>
 </div> 
 
