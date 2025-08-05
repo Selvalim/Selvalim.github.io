@@ -59,16 +59,18 @@ Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/envisage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Envisage: Towards Expressive Visual Graph Querying](./paperInfo/envisage.pdf)
+[PrettiSmart: Visual Interpretation of Smart Contracts via Simulation](./paperInfo/PrettiSmart.pdf)
 
-**Xiaolin Wen**, Qishuang Fu, Shuangyue Han, Yichen Guo, Joseph K. Liu, and Yong Wang.
+**Xiaolin Wen**, Tai D. Nguyen, Lun Zhang, Jun Sun, and Yong Wang.
 
-IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
+IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. 
 
-[Project Page](./_pages/envisage.html) [PDF](./paperInfo/envisage.pdf) [Source Code](https://github.com/Selvalim/VGQ-front)  
+[Project Page](./_pages/prettismart.html) [PDF](./paperInfo/PrettiSmart.pdf) [Poster](./paperInfo/PrettiSmart-Poster.pdf)
+
+<span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
 </div>
 </div> 
 
@@ -86,6 +88,21 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 </div>
 </div> 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/envisage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Envisage: Towards Expressive Visual Graph Querying](./paperInfo/envisage.pdf)
+
+**Xiaolin Wen**, Qishuang Fu, Shuangyue Han, Yichen Guo, Joseph K. Liu, and Yong Wang.
+
+IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
+
+[Project Page](./_pages/envisage.html) [PDF](./paperInfo/envisage.pdf) [Source Code](https://github.com/Selvalim/VGQ-front)  
+</div>
+</div> 
+
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EuroVis 2025</div><img src='paperInfo/IntelliCircos.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -97,21 +114,6 @@ Mingyang Gu, Jiamin Zhu, Qipeng Wang, Fengjie Wang, **Xiaolin Wen**, Yong Wang, 
 Computer Graphics Forum (Proceedings of EuroVis 25). 2025. 
 
 [PDF](https://arxiv.org/pdf/2503.24021) [Source Code](https://github.com/KXXH/intelliCircos)  
-</div>
-</div> 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[PrettiSmart: Visual Interpretation of Smart Contracts via Simulationn](./paperInfo/PrettiSmart.pdf)
-
-**Xiaolin Wen**, Tai D. Nguyen, Lun Zhang, Jun Sun, and Yong Wang.
-
-IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. 
-
-[Project Page](./_pages/prettismart.html) [PDF](./paperInfo/PrettiSmart.pdf) [Poster](./paperInfo/PrettiSmart-Poster.pdf)
-
-<span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
 </div>
 </div> 
 
