@@ -21,12 +21,13 @@ redirect_from:
 I am now a PhD student in [VIDA Lab](https://vida-lab.org/) at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) under the guidance of [Prof. Yong Wang](https://yong-wang.org/index.html). In 2023, I got my master's degree in computer science at Vision Computing Lab, Sichuan University, and my supervisor was Prof. Min Zhu. In 2020, I got my dual bachelor's degree in computer science and technology & financial engineering at Sichuan University. I have also served as a reviewer for major conferences and journals in visualization, HCI, and Blockchain, including IEEE VIS, ACM CHI, IEEE PacificVis, ChinaVis, and TWEB.
 
 My research interests include Human-Computer Interaction and Data Visualization.
-Now, I am working on **Visualization for Fintech** and **Vis+LLM**.
+Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualization Design**.
 
 
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
+- *2025.11*: 🎖️ I was selected for the <span style="color:#c12c1f; font-weight:bold">CSIG 2025 Master’s Thesis Incentive Program</span>! 
 - *2025.08*: 🎉🎉 Our VIS2025 paper, **"Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in IEEE VIS 2025!
 - *2025.07*: 🎉🎉 Two papers (**Envisage** and **Qualitative Study for LLM-assisted Design Study Process**) are accepted by **IEEE VIS 2025**!
 - *2025.04*: 🎉🎉 **PrettiSmart** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in PacificVis25 (TVCG Track)!
@@ -314,6 +315,8 @@ Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou
 
 
 # 🎖 Honors and Awards
+- *2025.11* CSIG 2025 Master’s Thesis Incentive Program, China Society of Image and Graphics (CSIG).
+- *2025.11* Best Paper Honorable Mention, IEEE Vis 2025 
 - *2025.04* Best Paper Honorable Mention, PacificVis 2025 Journal Track  
 - *2023.06* Research Star, College of Compueter Science, Sichuan University (5/319)
 - *2023.06* Excellent Graduation Thesis, College of Compueter Science, Sichuan University (5/319)
