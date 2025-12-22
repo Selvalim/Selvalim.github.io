@@ -330,6 +330,7 @@ Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou
 - *2016.09 - 2020.06*, Dual Bachelor's Degree in Computer Science and Technology & Financial Engineering, Sichuan University, China.
 
 # 💬 Invited Talks
+- *2025.12*, **Intelligent Visual Analytics for Cryptocurrency Fraud Detection**, Nanjing University, China.
 - *2024.01*, **Visualization for Web3 Fraud Detection**, Sichuan University, China.
 - *2023.09*, **Panel Discussion: On-chain Data and Web3 Security**, Singapore Management University, Singapore.
 
