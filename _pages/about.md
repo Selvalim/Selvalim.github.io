@@ -27,6 +27,7 @@ Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualizat
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
+- *2026.01*: 📜 **Athanor** is accepted by **PacificVis 2026**!
 - *2025.11*: 🎖️ I was selected for the <span style="color:#c12c1f; font-weight:bold">CSIG 2025 Master’s Thesis Incentive Program</span>! 
 - *2025.08*: 🎉🎉 Our VIS2025 paper, **"Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in IEEE VIS 2025!
 - *2025.07*: 🎉🎉 Two papers (**Envisage** and **Qualitative Study for LLM-assisted Design Study Process**) are accepted by **IEEE VIS 2025**!
@@ -58,6 +59,19 @@ Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualizat
 
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Athanor: Authoring Action Modification-based Interactions on Static Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
+
+Can Liu, Jaeuk Lee, Tianhe Chen, Zhibang Jiang, **Xiaolin Wen**, Yong Wang
+
+Proceedings of 2026 IEEE Pacific Visualization Symposium (PacificVis 2026), 2026.
+
+[PDF](https://arxiv.org/pdf/2601.17736) [Demo](https://authorvisinter.github.io/)
+</div>
+</div> 
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
