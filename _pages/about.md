@@ -27,7 +27,7 @@ Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualizat
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
-- *2026.03*: 📜 **When the Chain Breaks: Interactive Diagnosis of LLM Chain-of-Thought Reasoning Errors** is accepted by **EuroVis 2026**!
+- *2026.03*: 📜 Our paper, **"When the Chain Breaks: Interactive Diagnosis of LLM Chain-of-Thought Reasoning Errors"**, is accepted by **EuroVis 2026**!
 - *2026.01*: 📜 **Athanor** is accepted by **PacificVis 2026**!
 - *2025.11*: 🎖️ I was selected for the <span style="color:#c12c1f; font-weight:bold">CSIG 2025 Master’s Thesis Incentive Program</span>! 
 - *2025.08*: 🎉🎉 Our VIS2025 paper, **"Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in IEEE VIS 2025!
@@ -59,8 +59,75 @@ Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualizat
 
 
 
-# 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EuroVis 2026</div><img src='paperInfo/CotVis.png' alt="sym" width="100%"></div></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 2em; margin-bottom: 20px; gap: 10px;">
+  <h1 id="publications" style="margin: 0; border-bottom: none; padding-bottom: 0;">📝 Publications</h1>
+  <div class="filter-controls">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="selected">Selected Papers</button>
+    <button class="filter-btn" data-filter="vis4fintech">Vis4FinTech</button>
+    <button class="filter-btn" data-filter="llm-vis">LLM+Vis</button>
+    <button class="filter-btn" data-filter="vis4domain">Vis4Domain</button>
+  </div>
+</div>
+
+<style>
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.filter-btn {
+  padding: 8px 16px;
+  border: 1px solid #c12c1f;
+  background-color: transparent;
+  color: #c12c1f;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.filter-btn:hover {
+  background-color: rgba(193, 44, 31, 0.1);
+}
+.filter-btn.active {
+  background-color: #c12c1f;
+  color: white;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const papers = document.querySelectorAll('.paper-box');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Remove active class from all buttons
+      buttons.forEach(btn => btn.classList.remove('active'));
+      // Add active class to clicked button
+      button.classList.add('active');
+
+      const filter = button.getAttribute('data-filter');
+
+      papers.forEach(paper => {
+        if (filter === 'all') {
+          paper.style.display = ''; 
+        } else {
+          const categories = paper.getAttribute('data-categories') || '';
+          if (categories.includes(filter)) {
+            paper.style.display = '';
+          } else {
+            paper.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+});
+</script>
+
+ 
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">EuroVis 2026</div><img src='paperInfo/CotVis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When the Chain Breaks: Interactive Diagnosis of LLM
@@ -74,12 +141,14 @@ Proceedings of 2026 IEEE EuroVis (EuroVis 2026), 2026.
 </div>
 </div> 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">To Appear</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div><div class="badge">To Appear</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Human in the Loop for Fuzz Testing: Literature Review and the Road Ahead](https://arxiv.org/abs/2603.13411)
 
-Jiongchi Yu, **Xiaolin Wen**, Sizhe Cheng, Xiaofei Xie, Qiang Hu, Yong Wang
+Jiongchi Yu\*, **Xiaolin Wen**\*, Sizhe Cheng, Xiaofei Xie, Qiang Hu, Yong Wang  
+
+\* These authors contributed equally.
 
 To appear, 2026.
 
@@ -87,7 +156,7 @@ To appear, 2026.
 </div>
 </div> 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Athanor: Authoring Action Modification-based Interactions on Static Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
@@ -101,7 +170,7 @@ Proceedings of 2026 IEEE Pacific Visualization Symposium (PacificVis 2026), 2026
 </div> 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PrettiSmart: Visual Interpretation of Smart Contracts via Simulation](./paperInfo/PrettiSmart.pdf)
@@ -116,7 +185,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 </div>
 </div> 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles](https://arxiv.org/abs/2507.10024)
@@ -130,7 +199,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 </div>
 </div> 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/envisage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/envisage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Envisage: Towards Expressive Visual Graph Querying](./paperInfo/envisage.pdf)
@@ -146,7 +215,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EuroVis 2025</div><img src='paperInfo/IntelliCircos.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">EuroVis 2025</div><img src='paperInfo/IntelliCircos.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [IntelliCircos: A Data-driven and AI-powered Authoring Tool for Circos Plots](./paperInfo/IntelliCircos.pdf)
@@ -159,7 +228,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 </div>
 </div> 
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='selected vis4fintech'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">TVCG 2025</div>
@@ -178,7 +247,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">TVCG 2024</div>
@@ -197,7 +266,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='selected vis4fintech'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">CHI 2023</div>
@@ -217,7 +286,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='selected vis4fintech'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">CHI EA 2023</div>
@@ -237,7 +306,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">CG&A 2023</div>
@@ -256,7 +325,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">JoV 2023</div>
@@ -276,7 +345,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='vis4fintech'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">CS 2022</div>
@@ -296,7 +365,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">JoV 2022</div>
@@ -315,7 +384,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">VI 2022</div>
@@ -335,7 +404,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">JoV 2021</div>
