@@ -27,6 +27,7 @@ Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualizat
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
+- *2026.03*: 📜 **When the Chain Breaks: Interactive Diagnosis of LLM Chain-of-Thought Reasoning Errors** is accepted by **EuroVis 2026**!
 - *2026.01*: 📜 **Athanor** is accepted by **PacificVis 2026**!
 - *2025.11*: 🎖️ I was selected for the <span style="color:#c12c1f; font-weight:bold">CSIG 2025 Master’s Thesis Incentive Program</span>! 
 - *2025.08*: 🎉🎉 Our VIS2025 paper, **"Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Honorable Mention</span> in IEEE VIS 2025!
@@ -59,6 +60,32 @@ Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualizat
 
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EuroVis 2026</div><img src='paperInfo/CotVis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[When the Chain Breaks: Interactive Diagnosis of LLM
+Chain-of-Thought Reasoning Errors](https://arxiv.org/abs/2603.21286)
+
+Shiwei Chen, Niruthikka Sritharan, **Xiaolin Wen**, Chenxi Zhang, Xingbo Wang, Yong Wang
+
+Proceedings of 2026 IEEE EuroVis (EuroVis 2026), 2026.
+
+[PDF](https://arxiv.org/abs/2603.21286) 
+</div>
+</div> 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">To Appear</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Human in the Loop for Fuzz Testing: Literature Review and the Road Ahead](https://arxiv.org/abs/2603.13411)
+
+Jiongchi Yu, **Xiaolin Wen**, Sizhe Cheng, Xiaofei Xie, Qiang Hu, Yong Wang
+
+To appear, 2026.
+
+[PDF](https://arxiv.org/abs/2603.13411) 
+</div>
+</div> 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
