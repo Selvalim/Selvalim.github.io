@@ -27,6 +27,7 @@ Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualizat
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
+- *2026.04*: 🏆 Our PacificVis2026 paper, **"Athanor"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Award</span> Conference Track in PacificVis 2026!
 - *2026.03*: 📜 Our paper, **"When the Chain Breaks: Interactive Diagnosis of LLM Chain-of-Thought Reasoning Errors"**, is accepted by **EuroVis 2026**!
 - *2026.01*: 📜 **Athanor** is accepted by **PacificVis 2026**!
 - *2025.11*: 🎖️ I was selected for the <span style="color:#c12c1f; font-weight:bold">CSIG 2025 Master’s Thesis Incentive Program</span>! 
@@ -166,6 +167,7 @@ Can Liu, Jaeuk Lee, Tianhe Chen, Zhibang Jiang, **Xiaolin Wen**, Yong Wang
 Proceedings of 2026 IEEE Pacific Visualization Symposium (PacificVis 2026), 2026.
 
 [PDF](https://arxiv.org/pdf/2601.17736) [Demo](https://authorvisinter.github.io/)
+<span style="color:#c12c1f; font-weight:bold">(🏆 Best Paper Award)</span>
 </div>
 </div> 
 
@@ -425,14 +427,15 @@ Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou
 
 
 # 🎖 Honors and Awards
+- *2026.04* Best Paper Award, PacificVis 2026.
 - *2025.11* CSIG 2025 Master’s Thesis Incentive Program, China Society of Image and Graphics (CSIG).
-- *2025.11* Best Paper Honorable Mention, IEEE Vis 2025 
-- *2025.04* Best Paper Honorable Mention, PacificVis 2025 Journal Track  
-- *2023.06* Research Star, College of Compueter Science, Sichuan University (5/319)
-- *2023.06* Excellent Graduation Thesis, College of Compueter Science, Sichuan University (5/319)
-- *2021.12* The First Price of Tencent Scholarship, Sichuan University. (3/319)
-- *2021.06* The Award of Excellence, ChinaVis Challenge 2021. (27/77)
-- *2020.05* The Award of Excellence, ChinaVis Challenge 2020. (32/96)
+- *2025.11* Best Paper Honorable Mention, IEEE Vis 2025.
+- *2025.04* Best Paper Honorable Mention, PacificVis 2025 Journal Track.
+- *2023.06* Research Star, College of Compueter Science, Sichuan University (5/319).
+- *2023.06* Excellent Graduation Thesis, College of Compueter Science, Sichuan University (5/319).
+- *2021.12* The First Price of Tencent Scholarship, Sichuan University. (3/319).
+- *2021.06* The Award of Excellence, ChinaVis Challenge 2021. (27/77).
+- *2020.05* The Award of Excellence, ChinaVis Challenge 2020. (32/96).
 
 # 📖 Educations
 - *2025.01 - now*, Doctor of Philosophy (PhD) student in College of Computing & Data Science, Nanyang Technological University, Singapore. 
