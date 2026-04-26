@@ -27,7 +27,7 @@ Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualizat
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
-- *2026.04*: 🏆 Our PacificVis2026 paper, **"Athanor"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Award</span> Conference Track in PacificVis 2026!
+- *2026.04*: 🏆 Our PacificVis2026 paper, **"From Static to Interactive: Authoring Interactive Visualizations via Natural Language"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Award</span> Conference Track in PacificVis 2026!
 - *2026.03*: 📜 Our paper, **"When the Chain Breaks: Interactive Diagnosis of LLM Chain-of-Thought Reasoning Errors"**, is accepted by **EuroVis 2026**!
 - *2026.01*: 📜 **Athanor** is accepted by **PacificVis 2026**!
 - *2025.11*: 🎖️ I was selected for the <span style="color:#c12c1f; font-weight:bold">CSIG 2025 Master’s Thesis Incentive Program</span>! 
@@ -151,7 +151,7 @@ Jiongchi Yu\*, **Xiaolin Wen**\*, Sizhe Cheng, Xiaofei Xie, Qiang Hu, Yong Wang
 
 \* These authors contributed equally.
 
-To appear, 2026.
+Under review.
 
 [PDF](https://arxiv.org/abs/2603.13411) 
 </div>
@@ -160,7 +160,7 @@ To appear, 2026.
 <div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Athanor: Authoring Action Modification-based Interactions on Static Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
+[From Static to Interactive: Authoring Interactive Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
 
 Can Liu, Jaeuk Lee, Tianhe Chen, Zhibang Jiang, **Xiaolin Wen**, Yong Wang
 
