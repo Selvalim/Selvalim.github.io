@@ -23,6 +23,8 @@ I am now a PhD student in [VIDA Lab](https://vida-lab.org/) at [Nanyang Technolo
 My research interests include Human-Computer Interaction and Data Visualization.
 Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualization Design**.
 
+Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
+
 
 
 # 🔥 News
