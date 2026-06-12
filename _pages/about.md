@@ -83,20 +83,70 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 }
 .filter-btn {
   padding: 8px 16px;
-  border: 1px solid #c12c1f;
+  border: 1px solid #2d5b73;
   background-color: transparent;
-  color: #c12c1f;
+  color: #2d5b73;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 .filter-btn:hover {
-  background-color: rgba(193, 44, 31, 0.1);
+  background-color: rgba(45, 91, 115, 0.12);
 }
 .filter-btn.active {
-  background-color: #c12c1f;
+  background-color: #2d5b73;
   color: white;
+}
+
+.me {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.pub-scroll {
+  max-height: 70vh;
+  max-height: min(900px, 70vh);
+  overflow-y: auto;
+  padding: 12px 16px;
+  background: rgba(45, 91, 115, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.18), inset 0 -12px 12px -12px rgba(0, 0, 0, 0.18);
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+
+.pub-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.pub-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.pub-scroll::-webkit-scrollbar-thumb {
+  background: rgba(45, 91, 115, 0.35);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.pub-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(45, 91, 115, 0.55);
+}
+
+.pub-scroll .badge {
+  padding: 0.2em 0.85em;
+  background: linear-gradient(135deg, #2d5b73 0%, #214554 100%);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  font-size: 0.95em;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
 }
 </style>
 
@@ -134,14 +184,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
- 
-<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">EuroVis 2026</div><img src='paperInfo/CotVis.png' alt="sym" width="100%"></div></div>
+<div class="pub-scroll" markdown="1">
+
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">EuroVis 2026</div><img src='paperInfo/CotVis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When the Chain Breaks: Interactive Diagnosis of LLM
 Chain-of-Thought Reasoning Errors](https://arxiv.org/abs/2603.21286)
 
-Shiwei Chen, Niruthikka Sritharan, **Xiaolin Wen**, Chenxi Zhang, Xingbo Wang, Yong Wang
+Shiwei Chen, Niruthikka Sritharan, <span class="me">Xiaolin Wen</span>, Chenxi Zhang, Xingbo Wang, Yong Wang
 
 Proceedings of 2026 IEEE EuroVis (EuroVis 2026), 2026.
 
@@ -149,12 +200,12 @@ Proceedings of 2026 IEEE EuroVis (EuroVis 2026), 2026.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div><div class="badge">VI 2026</div><img src='paperInfo/AirCascades.png' alt="AirCascades" width="100%"></div></div>
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">VI 2026</div><img src='paperInfo/AirCascades.png' alt="AirCascades" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AirCascades: A Visual Analytics System for Cascading Taxiway Interaction Patterns](https://www.sciencedirect.com/science/article/pii/S2468502X26000318)
 
-Guoqiang Wang, **Xiaolin Wen**, Fengjie Wang, Luge Yang, Qipeng Wang, Min Zhu.
+Guoqiang Wang, <span class="me">Xiaolin Wen</span>, Fengjie Wang, Luge Yang, Qipeng Wang, Min Zhu.
 
 Visual Informatics, 2026.
 
@@ -162,12 +213,12 @@ Visual Informatics, 2026.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div><div class="badge">Under review</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Human in the Loop for Fuzz Testing: Literature Review and the Road Ahead](https://arxiv.org/abs/2603.13411)
 
-Jiongchi Yu\*, **Xiaolin Wen**\*, Sizhe Cheng, Xiaofei Xie, Qiang Hu, Yong Wang  
+Jiongchi Yu\*, <span class="me">Xiaolin Wen</span>\*, Sizhe Cheng, Xiaofei Xie, Qiang Hu, Yong Wang  
 
 \* These authors contributed equally.
 
@@ -177,23 +228,23 @@ Under review.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div><div class="badge">Under review</div><img src='paperInfo/vis4qc-survey.png' alt="vis4qc-survey" width="100%"></div></div>
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/vis4qc-survey.png' alt="vis4qc-survey" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Visualization for Quantum Computing: Current State and Future Directions](https://www.researchgate.net/publication/404040113_Visualization_for_Quantum_Computing_Current_State_and_Future_Directions)
 
-Feng Liang, **Xiaolin Wen**, Shixian Zhou, Shaolun Ruan, Yuxuan Du, Qiang Guan, Jun Ye, and Yong Wang
+Feng Liang, <span class="me">Xiaolin Wen</span>, Shixian Zhou, Shaolun Ruan, Yuxuan Du, Qiang Guan, Jun Ye, and Yong Wang
 
 [PDF](./paperInfo/vis4qc-survey.pdf) [ResearchGate](https://www.researchgate.net/publication/404040113_Visualization_for_Quantum_Computing_Current_State_and_Future_Directions)
 </div>
 </div> 
 
-<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div><div class="badge">Under review</div><img src='paperInfo/revis.png' alt="ReVis" width="100%"></div></div>
+<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/revis.png' alt="ReVis" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ReVis: Towards Reusable Image-Based Visualizations with MLLMs](https://arxiv.org/abs/2604.15781)
 
-**Xiaolin Wen**, Changlin Li, Manusha Karunathilaka, Can Liu, Fangzhuo Jin, Yong Wang
+<span class="me">Xiaolin Wen</span>, Changlin Li, Manusha Karunathilaka, Can Liu, Fangzhuo Jin, Yong Wang
 
 Under review.
 
@@ -201,12 +252,12 @@ Under review.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">Under review</div><img src='paperInfo/InconLens.png' alt="InconLens" width="100%"></div></div>
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/InconLens.png' alt="InconLens" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [InconLens: Interactive Visual Diagnosis of Behavioral Inconsistencies in LLM-based Agentic Systems](https://arxiv.org/abs/2603.28106)
 
-Shuo Yan, **Xiaolin Wen**, Shaolun Ruan, Yanjie Zhang, Jiaming Mi, Yushi Sun, Huamin Qu, Rui Sheng
+Shuo Yan, <span class="me">Xiaolin Wen</span>, Shaolun Ruan, Yanjie Zhang, Jiaming Mi, Yushi Sun, Huamin Qu, Rui Sheng
 
 Under review.
 
@@ -214,12 +265,12 @@ Under review.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div><div class="badge">PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏆 PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [From Static to Interactive: Authoring Interactive Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
 
-Can Liu, Jaeuk Lee, Tianhe Chen, Zhibang Jiang, **Xiaolin Wen**, Yong Wang
+Can Liu, Jaeuk Lee, Tianhe Chen, Zhibang Jiang, <span class="me">Xiaolin Wen</span>, Yong Wang
 
 Proceedings of 2026 IEEE Pacific Visualization Symposium (PacificVis 2026), 2026.
 
@@ -229,12 +280,12 @@ Proceedings of 2026 IEEE Pacific Visualization Symposium (PacificVis 2026), 2026
 </div> 
 
 
-<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PrettiSmart: Visual Interpretation of Smart Contracts via Simulation](./paperInfo/PrettiSmart.pdf)
 
-**Xiaolin Wen**, Tai D. Nguyen, Lun Zhang, Jun Sun, and Yong Wang.
+<span class="me">Xiaolin Wen</span>, Tai D. Nguyen, Lun Zhang, Jun Sun, and Yong Wang.
 
 IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. 
 
@@ -244,12 +295,12 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 </div>
 </div> 
 
-<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles](https://arxiv.org/abs/2507.10024)
 
-Shaolun Ruan, Rui Sheng, **Xiaolin Wen**, Jiachen Wang, Tianyi Zhang, Yong Wang, Tim Dwyer, and Jiannan Li.
+Shaolun Ruan, Rui Sheng, <span class="me">Xiaolin Wen</span>, Jiachen Wang, Tianyi Zhang, Yong Wang, Tim Dwyer, and Jiannan Li.
 
 IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
 
@@ -258,12 +309,12 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div><div class="badge">VIS 2025</div><img src='paperInfo/envisage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div style="position: relative;"><div class="badge">VIS 2025</div><img src='paperInfo/envisage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Envisage: Towards Expressive Visual Graph Querying](./paperInfo/envisage.pdf)
 
-**Xiaolin Wen**, Qishuang Fu, Shuangyue Han, Yichen Guo, Joseph K. Liu, and Yong Wang.
+<span class="me">Xiaolin Wen</span>, Qishuang Fu, Shuangyue Han, Yichen Guo, Joseph K. Liu, and Yong Wang.
 
 IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
 
@@ -274,12 +325,12 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 
 
 
-<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">EuroVis 2025</div><img src='paperInfo/IntelliCircos.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">EuroVis 2025</div><img src='paperInfo/IntelliCircos.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [IntelliCircos: A Data-driven and AI-powered Authoring Tool for Circos Plots](./paperInfo/IntelliCircos.pdf)
 
-Mingyang Gu, Jiamin Zhu, Qipeng Wang, Fengjie Wang, **Xiaolin Wen**, Yong Wang, and Min Zhu.
+Mingyang Gu, Jiamin Zhu, Qipeng Wang, Fengjie Wang, <span class="me">Xiaolin Wen</span>, Yong Wang, and Min Zhu.
 
 Computer Graphics Forum (Proceedings of EuroVis 25). 2025. 
 
@@ -289,7 +340,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='selected vis4fintech'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">TVCG 2025</div>
       <img src='paperInfo/PonziLens+.png' alt="PonziLens+" width="100%">
     </div>
@@ -298,7 +349,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [PonziLens+: Visualizing Bytecode Actions for Smart Ponzi Scheme Identification](./paperInfo/PonziLens+.pdf)
 
-  **Xiaolin Wen**, Tai D. Nguyen, Shaolun Ruan, Qiaomu Shen, Jun Sun, Feida Zhu, and Yong Wang.
+  <span class="me">Xiaolin Wen</span>, Tai D. Nguyen, Shaolun Ruan, Qiaomu Shen, Jun Sun, Feida Zhu, and Yong Wang.
 
   IEEE Transactions on Visualization and Computer Graphics. 2025. 
 
@@ -308,7 +359,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">TVCG 2024</div>
       <img src='paperInfo/VIOLET.png' alt="VIOLET" width="100%">
     </div>
@@ -317,7 +368,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [VIOLET: Visual Analytics for Explainable Quantum Neural Networks](./paperInfo/violet.pdf)
 
-  Shaolun Ruan, Zhiding Liang, Qiang Guan, Paul Griffin, **Xiaolin Wen**, Yanna Lin and Yong Wang.
+  Shaolun Ruan, Zhiding Liang, Qiang Guan, Paul Griffin, <span class="me">Xiaolin Wen</span>, Yanna Lin and Yong Wang.
 
   IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 24 TVCG track). 2024.
 
@@ -327,7 +378,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='selected vis4fintech'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">CHI 2023</div>
       <img src='paperInfo/NFTDisk.png' alt="NFTDisk" width="100%">
     </div>
@@ -336,7 +387,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [NFTDisk: Visual Detection of Wash Trading in NFT Markets](./paperInfo/NFTDisk.pdf)
 
-  **Xiaolin Wen**, Yong Wang, Xuanwu Yue, Feida Zhu, Min Zhu.
+  <span class="me">Xiaolin Wen</span>, Yong Wang, Xuanwu Yue, Feida Zhu, Min Zhu.
 
   ACM CHI Conference on Human Factors in Computing Systems, 2023.
 
@@ -347,7 +398,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='selected vis4fintech'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">CHI EA 2023</div>
       <img src='paperInfo/codewilltell.png' alt="Code Will Tell" width="100%">
     </div>
@@ -356,7 +407,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [Code Will Tell: Visual Identification of Ponzi Schemes on Ethereum](./paperInfo/codewilltell.pdf)
 
-  **Xiaolin Wen**, Kim Siang Yeo, Yong Wang, Ling Cheng, Feida Zhu, Min Zhu.
+  <span class="me">Xiaolin Wen</span>, Kim Siang Yeo, Yong Wang, Ling Cheng, Feida Zhu, Min Zhu.
 
   ACM CHI Conference on Human Factors in Computing Systems, Extended Abstract, 2023.
 
@@ -367,7 +418,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">CG&A 2023</div>
       <img src='paperInfo/diffseer.png' alt="DiffSeer" width="100%">
     </div>
@@ -376,7 +427,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [DiffSeer: Difference-based Dynamic Weighted Graph Visualization](./paperInfo/diffseer.pdf)
 
-  **Xiaolin Wen**, Yong Wang, Meixuan Wu, Fengjie Wang, Xuanwu Yue, Qiaomu Shen, Yuxin Ma, Min Zhu.
+  <span class="me">Xiaolin Wen</span>, Yong Wang, Meixuan Wu, Fengjie Wang, Xuanwu Yue, Qiaomu Shen, Yuxin Ma, Min Zhu.
 
   IEEE Computer Graphics and Applications, 2023.
 
@@ -386,7 +437,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">JoV 2023</div>
       <img src='paperInfo/warehouselens.png' alt="WarehouseLens" width="100%">
     </div>
@@ -395,7 +446,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [WarehouseLens: Visualizing and Exploring Turnover Events of Digital Warehouse](./paperInfo/warehouselens.pdf)
 
-  Fuqiu Chen, Jizhou Li, Fengjie Wang, Shangsong Liu, **Xiaolin Wen**, Pengyuan Li, Min Zhu.
+  Fuqiu Chen, Jizhou Li, Fengjie Wang, Shangsong Liu, <span class="me">Xiaolin Wen</span>, Pengyuan Li, Min Zhu.
 
   Journal of Visualization, 2023.
 
@@ -406,7 +457,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='vis4fintech'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">CS 2022</div>
       <img src='paperInfo/EOS.jpg' alt="Blockchain Community Evolution" width="100%">
     </div>
@@ -415,7 +466,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [Visual Analysis Method of Blockchain Community Evolution Based on DPoS Consensus Mechanism](./paperInfo/EOS.pdf)
 
-  **Xiaolin Wen**, Changlin Li, Shangsong Liu, Xinyi Zhang, Min Zhu.
+  <span class="me">Xiaolin Wen</span>, Changlin Li, Shangsong Liu, Xinyi Zhang, Min Zhu.
 
   Computer Science, 2022. (Chinese Journal)
 
@@ -426,7 +477,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">JoV 2022</div>
       <img src='paperInfo/triplan.png' alt="TriPlan" width="100%">
     </div>
@@ -435,7 +486,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [TriPlan: An Interactive Visual Analytics Approach for Better Tourism Route Planning](./paperInfo/TriPlan.pdf)
 
-  Xinyi Zhang, Xiao Pang, **Xiaolin Wen**, Fengjie Wang, Changlin Li, Min Zhu.
+  Xinyi Zhang, Xiao Pang, <span class="me">Xiaolin Wen</span>, Fengjie Wang, Changlin Li, Min Zhu.
 
   Journal of Visualization, 2022.
 
@@ -445,7 +496,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">VI 2022</div>
       <img src='paperInfo/MDVis.png' alt="MDIVis" width="100%">
     </div>
@@ -454,7 +505,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [MDIVis: Visual Analytics of Multiple Destination Images on Tourism User Generated Content](./paperInfo/MDIVis.pdf)
 
-  Changlin Li, Mengqi Cao, **Xiaolin Wen**, Haotian Zhu, Shangsong Liu, Min Zhu.
+  Changlin Li, Mengqi Cao, <span class="me">Xiaolin Wen</span>, Haotian Zhu, Shangsong Liu, Min Zhu.
 
   Visual Informatics, 2022.
 
@@ -465,7 +516,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 <div class='paper-box' data-categories='vis4domain'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position: relative;">
       <div class="badge">JoV 2021</div>
       <img src='paperInfo/MulUBA.png' alt="MulUBA" width="100%">
     </div>
@@ -474,12 +525,14 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [MulUBA: Multi-level Visual Analytics of User Behaviors for Improving Online Shopping Advertising](./paperInfo/mulUBA.pdf)
 
-Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou, Min Zhu.
+Shangsong Liu, Di Peng, Haotian Zhu, <span class="me">Xiaolin Wen</span>, Xinyi Zhang, Zhenghao Zhou, Min Zhu.
 
   Journal of Visualization, 2021.
 
   [PDF](./paperInfo/mulUBA.pdf)
   </div>
+</div>
+
 </div>
 
 
