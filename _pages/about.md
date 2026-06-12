@@ -29,6 +29,8 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
+- *2026.06*: 🎤 Gave a talk titled "**From On-chain Signals to Trustworthy Insights: Visual Analytics for Cryptocurrency Fraud Sensemaking**" at **Sichuan University**!
+- *2026.06*: 📜 **AirCascades** is accepted by **Visual Informatics (VI)**!
 - *2026.04*: 🏆 Our PacificVis2026 paper, **"From Static to Interactive: Authoring Interactive Visualizations via Natural Language"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Award</span> Conference Track in PacificVis 2026!
 - *2026.03*: 📜 Our paper, **"When the Chain Breaks: Interactive Diagnosis of LLM Chain-of-Thought Reasoning Errors"**, is accepted by **EuroVis 2026**!
 - *2026.01*: 📜 **From Static to Interactive: Authoring Interactive Visualizations via Natural Language** is accepted by **PacificVis 2026**!
@@ -65,8 +67,8 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 2em; margin-bottom: 20px; gap: 10px;">
   <h1 id="publications" style="margin: 0; border-bottom: none; padding-bottom: 0;">📝 Publications</h1>
   <div class="filter-controls">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="selected">Selected Papers</button>
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn active" data-filter="selected">Selected Papers</button>
     <button class="filter-btn" data-filter="vis4fintech">Vis4FinTech</button>
     <button class="filter-btn" data-filter="llm-vis">LLM+Vis</button>
     <button class="filter-btn" data-filter="vis4domain">Vis4Domain</button>
@@ -126,6 +128,9 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
+
+  const defaultButton = document.querySelector('.filter-btn[data-filter="selected"]');
+  if (defaultButton) defaultButton.click();
 });
 </script>
 
@@ -144,7 +149,20 @@ Proceedings of 2026 IEEE EuroVis (EuroVis 2026), 2026.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div><div class="badge">To Appear</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div><div class="badge">VI 2026</div><img src='paperInfo/AirCascades.png' alt="AirCascades" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AirCascades: A Visual Analytics System for Cascading Taxiway Interaction Patterns](https://www.sciencedirect.com/science/article/pii/S2468502X26000318)
+
+Guoqiang Wang, **Xiaolin Wen**, Fengjie Wang, Luge Yang, Qipeng Wang, Min Zhu.
+
+Visual Informatics, 2026.
+
+[PDF](./paperInfo/AirCascades.pdf) [DOI](https://doi.org/10.1016/j.visinf.2026.100335)
+</div>
+</div> 
+
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div><div class="badge">Under review</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Human in the Loop for Fuzz Testing: Literature Review and the Road Ahead](https://arxiv.org/abs/2603.13411)
@@ -159,7 +177,44 @@ Under review.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div><div class="badge">Under review</div><img src='paperInfo/vis4qc-survey.png' alt="vis4qc-survey" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Visualization for Quantum Computing: Current State and Future Directions](https://www.researchgate.net/publication/404040113_Visualization_for_Quantum_Computing_Current_State_and_Future_Directions)
+
+Feng Liang, **Xiaolin Wen**, Shixian Zhou, Shaolun Ruan, Yuxuan Du, Qiang Guan, Jun Ye, and Yong Wang
+
+[PDF](./paperInfo/vis4qc-survey.pdf) [ResearchGate](https://www.researchgate.net/publication/404040113_Visualization_for_Quantum_Computing_Current_State_and_Future_Directions)
+</div>
+</div> 
+
+<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div><div class="badge">Under review</div><img src='paperInfo/revis.png' alt="ReVis" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ReVis: Towards Reusable Image-Based Visualizations with MLLMs](https://arxiv.org/abs/2604.15781)
+
+**Xiaolin Wen**, Changlin Li, Manusha Karunathilaka, Can Liu, Fangzhuo Jin, Yong Wang
+
+Under review.
+
+[PDF](./paperInfo/revis.pdf) [arXiv](https://arxiv.org/abs/2604.15781)
+</div>
+</div> 
+
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div><div class="badge">Under review</div><img src='paperInfo/InconLens.png' alt="InconLens" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[InconLens: Interactive Visual Diagnosis of Behavioral Inconsistencies in LLM-based Agentic Systems](https://arxiv.org/abs/2603.28106)
+
+Shuo Yan, **Xiaolin Wen**, Shaolun Ruan, Yanjie Zhang, Jiaming Mi, Yushi Sun, Huamin Qu, Rui Sheng
+
+Under review.
+
+[PDF](./paperInfo/InconLens.pdf) [arXiv](https://arxiv.org/abs/2603.28106)
+</div>
+</div> 
+
+<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div><div class="badge">PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [From Static to Interactive: Authoring Interactive Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
@@ -445,6 +500,7 @@ Shangsong Liu, Di Peng, Haotian Zhu, **Xiaolin Wen**, Xinyi Zhang, Zhenghao Zhou
 - *2016.09 - 2020.06*, Dual Bachelor's Degree in Computer Science and Technology & Financial Engineering, Sichuan University, China.
 
 # 💬 Invited Talks
+- *2026.06*, **From On-chain Signals to Trustworthy Insights: Visual Analytics for Cryptocurrency Fraud Sensemaking**, Sichuan University, China.
 - *2025.12*, **Intelligent Visual Analytics for Cryptocurrency Fraud Detection**, Nanjing University, China.
 - *2024.01*, **Visualization for Web3 Fraud Detection**, Sichuan University, China.
 - *2023.09*, **Panel Discussion: On-chain Data and Web3 Security**, Singapore Management University, Singapore.
