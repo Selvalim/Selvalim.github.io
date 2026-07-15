@@ -67,11 +67,11 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 2em; margin-bottom: 20px; gap: 10px;">
   <h1 id="publications" style="margin: 0; border-bottom: none; padding-bottom: 0;">📝 Publications</h1>
   <div class="filter-controls">
-    <button class="filter-btn" data-filter="all">All</button>
-    <button class="filter-btn active" data-filter="selected">Selected Papers</button>
-    <button class="filter-btn" data-filter="vis4fintech">Vis4FinTech</button>
-    <button class="filter-btn" data-filter="llm-vis">LLM+Vis</button>
-    <button class="filter-btn" data-filter="vis4domain">Vis4Domain</button>
+    <button class="filter-btn" data-filter="all" data-label="All">All</button>
+    <button class="filter-btn active" data-filter="selected" data-label="Selected">Selected</button>
+    <button class="filter-btn" data-filter="vis4fintech" data-label="Vis4FinTech">Vis4FinTech</button>
+    <button class="filter-btn" data-filter="llm-vis" data-label="LLM+Vis">LLM+Vis</button>
+    <button class="filter-btn" data-filter="vis4domain" data-label="Vis4Domain">Vis4Domain</button>
   </div>
 </div>
 
@@ -154,6 +154,19 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 document.addEventListener("DOMContentLoaded", function() {
   const buttons = document.querySelectorAll('.filter-btn');
   const papers = document.querySelectorAll('.paper-box');
+  const getCategories = (paper) => (paper.getAttribute('data-categories') || '')
+    .split(/\s+/)
+    .filter(Boolean);
+
+  buttons.forEach(button => {
+    const filter = button.getAttribute('data-filter');
+    const label = button.getAttribute('data-label') || button.textContent.trim();
+    const count = filter === 'all'
+      ? papers.length
+      : Array.from(papers).filter(paper => getCategories(paper).includes(filter)).length;
+
+    button.textContent = `${label} (${count})`;
+  });
 
   buttons.forEach(button => {
     button.addEventListener('click', () => {
@@ -168,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (filter === 'all') {
           paper.style.display = ''; 
         } else {
-          const categories = paper.getAttribute('data-categories') || '';
+          const categories = getCategories(paper);
           if (categories.includes(filter)) {
             paper.style.display = '';
           } else {
