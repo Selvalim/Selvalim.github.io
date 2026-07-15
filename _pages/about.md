@@ -186,6 +186,75 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <div class="pub-scroll" markdown="1">
 
+<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏆 PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[From Static to Interactive: Authoring Interactive Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
+
+Can Liu, Jaeuk Lee, Tianhe Chen, Zhibang Jiang, <span class="me">Xiaolin Wen</span>, Yong Wang
+
+Proceedings of 2026 IEEE Pacific Visualization Symposium (PacificVis 2026), 2026.
+
+[PDF](https://arxiv.org/pdf/2601.17736) [Demo](https://authorvisinter.github.io/)
+<span style="color:#c12c1f; font-weight:bold">(🏆 Best Paper Award)</span>
+</div>
+</div> 
+
+<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PrettiSmart: Visual Interpretation of Smart Contracts via Simulation](./paperInfo/PrettiSmart.pdf)
+
+<span class="me">Xiaolin Wen</span>, Tai D. Nguyen, Lun Zhang, Jun Sun, and Yong Wang.
+
+IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. 
+
+[Project Page](./_pages/prettismart.html) [PDF](./paperInfo/PrettiSmart.pdf) [Poster](./paperInfo/PrettiSmart-Poster.pdf)
+
+<span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
+</div>
+</div> 
+
+<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles](https://arxiv.org/abs/2507.10024)
+
+Shaolun Ruan, Rui Sheng, <span class="me">Xiaolin Wen</span>, Jiachen Wang, Tianyi Zhang, Yong Wang, Tim Dwyer, and Jiannan Li.
+
+IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
+
+[PDF](https://arxiv.org/abs/2507.10024) 
+<span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
+</div>
+</div> 
+
+<div class='paper-box' data-categories='selected vis4fintech llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/ManiScope.png' alt="ManiScope" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ManiScope: LLM-Assisted Visual Analytics of Cryptocurrency Manipulation Risk](https://arxiv.org/abs/2607.11451)
+
+<span class="me">Xiaolin Wen</span>, Feng Liang, Yuanye Ma, Qishuang Fu, Zhengyu Sun, Feng Zhu, Can Liu, Yong Wang
+
+Under review.
+
+[PDF](./paperInfo/ManiScope.pdf) [arXiv](https://arxiv.org/abs/2607.11451)
+</div>
+</div> 
+
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/vibecodingshort.png' alt="Vibe Coding Short" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Vibe Coding for Visualization Implementation: An Empirical Study of Practices and Challenges](https://arxiv.org/abs/2606.19703)
+
+Zhengyu Sun, <span class="me">Xiaolin Wen</span>, Fengjie Wang, Can Liu, Yi Lai, Christophe Hurter, Yong Wang
+
+Under review.
+
+[PDF](./paperInfo/vibecodingshort.pdf) [arXiv](https://arxiv.org/abs/2606.19703)
+</div>
+</div> 
+
 <div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">EuroVis 2026</div><img src='paperInfo/CotVis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -262,50 +331,6 @@ Shuo Yan, <span class="me">Xiaolin Wen</span>, Shaolun Ruan, Yanjie Zhang, Jiami
 Under review.
 
 [PDF](./paperInfo/InconLens.pdf) [arXiv](https://arxiv.org/abs/2603.28106)
-</div>
-</div> 
-
-<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏆 PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[From Static to Interactive: Authoring Interactive Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
-
-Can Liu, Jaeuk Lee, Tianhe Chen, Zhibang Jiang, <span class="me">Xiaolin Wen</span>, Yong Wang
-
-Proceedings of 2026 IEEE Pacific Visualization Symposium (PacificVis 2026), 2026.
-
-[PDF](https://arxiv.org/pdf/2601.17736) [Demo](https://authorvisinter.github.io/)
-<span style="color:#c12c1f; font-weight:bold">(🏆 Best Paper Award)</span>
-</div>
-</div> 
-
-
-<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[PrettiSmart: Visual Interpretation of Smart Contracts via Simulation](./paperInfo/PrettiSmart.pdf)
-
-<span class="me">Xiaolin Wen</span>, Tai D. Nguyen, Lun Zhang, Jun Sun, and Yong Wang.
-
-IEEE Transactions on Visualization and Computer Graphics (Proceedings of PacificVis 25 TVCG track). 2025. 
-
-[Project Page](./_pages/prettismart.html) [PDF](./paperInfo/PrettiSmart.pdf) [Poster](./paperInfo/PrettiSmart-Poster.pdf)
-
-<span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
-</div>
-</div> 
-
-<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles](https://arxiv.org/abs/2507.10024)
-
-Shaolun Ruan, Rui Sheng, <span class="me">Xiaolin Wen</span>, Jiachen Wang, Tianyi Zhang, Yong Wang, Tim Dwyer, and Jiannan Li.
-
-IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025. 
-
-[PDF](https://arxiv.org/abs/2507.10024) 
-<span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
 </div>
 </div> 
 
