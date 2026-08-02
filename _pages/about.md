@@ -295,7 +295,7 @@ Visual Informatics, 2026.
 </div>
 </div> 
 
-<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TOSEM</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Human in the Loop for Fuzz Testing: Literature Review and the Road Ahead](https://arxiv.org/abs/2603.13411)
@@ -304,9 +304,9 @@ Jiongchi Yu\*, <span class="me">Xiaolin Wen</span>\*, Sizhe Cheng, Xiaofei Xie, 
 
 \* These authors contributed equally.
 
-Under review.
+ACM Transactions on Software Engineering and Methodology (TOSEM), 2026.
 
-[PDF](https://arxiv.org/abs/2603.13411) 
+[[PDF](https://arxiv.org/abs/2603.13411) 
 </div>
 </div> 
 
