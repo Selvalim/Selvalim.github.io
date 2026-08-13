@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # **Xiaolin Wen 温啸林 (Shawn)**
-I am now a PhD student in [VIDA Lab](https://vida-lab.org/) at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) under the guidance of [Prof. Yong Wang](https://yong-wang.org/index.html). In 2023, I got my master's degree in computer science at Vision Computing Lab, Sichuan University, and my supervisor was Prof. Min Zhu. In 2020, I got my dual bachelor's degree in computer science and technology & financial engineering at Sichuan University. I have also served as a reviewer for major conferences and journals in visualization, HCI, and Blockchain, including IEEE VIS, ACM CHI, IEEE PacificVis, ChinaVis, and TWEB.
+I am now a PhD candidate in [VIDA Lab](https://vida-lab.org/) at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) under the guidance of [Prof. Yong Wang](https://yong-wang.org/index.html). In 2023, I got my master's degree in computer science at Vision Computing Lab, Sichuan University, and my supervisor was Prof. Min Zhu. In 2020, I got my dual bachelor's degree in computer science and technology & financial engineering at Sichuan University. I have also served as a reviewer for major conferences and journals in visualization, HCI, and Blockchain, including IEEE VIS, ACM CHI, IEEE PacificVis, ChinaVis, and TWEB.
 
 My research interests include Human-Computer Interaction and Data Visualization.
 Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualization Design**.
@@ -29,6 +29,10 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: auto; padding: 15px; border-radius: 5px;" markdown="1">
+- *2026.08*: 🎓 Passed the Ph.D. Qualifying Examination and became a **Ph.D. candidate**!
+- *2026.08*: 📜 **EvoMaestro** is accepted by **UIST 2026**!
+- *2026.08*: 🎓 Invited to attend the **Tencent Rhino-Bird Elite Study Camp**!
+- *2026.07*: 📜 **ActSoon** is accepted by **ChinaVis 2026**!
 - *2026.06*: 🎤 Gave a talk titled "**From On-chain Signals to Trustworthy Insights: Visual Analytics for Cryptocurrency Fraud Sensemaking**" at **Sichuan University**!
 - *2026.06*: 📜 **AirCascades** is accepted by **Visual Informatics (VI)**!
 - *2026.04*: 🏆 Our PacificVis2026 paper, **"From Static to Interactive: Authoring Interactive Visualizations via Natural Language"** won the <span style="color:#c12c1f; font-weight:bold">Best Paper Award</span> Conference Track in PacificVis 2026!
@@ -255,6 +259,19 @@ Under review.
 </div>
 </div> 
 
+<div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">UIST 2026</div><img src='paperInfo/EvoMaestro.png' alt="EvoMaestro" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EvoMaestro: Toward Interpretable and Steerable LLM-Driven Program Evolution](https://doi.org/10.1145/3830398.3830626)
+
+Feng Liang, Sizhe Cheng, Yikai Li, Ruijie He, <span class="me">Xiaolin Wen</span>, Yong Wang
+
+Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026), 2026.
+
+[PDF](./paperInfo/EvoMaestro.pdf) [DOI](https://doi.org/10.1145/3830398.3830626)
+</div>
+</div>
+
 <div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/vibecodingshort.png' alt="Vibe Coding Short" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -294,6 +311,19 @@ Visual Informatics, 2026.
 [PDF](./paperInfo/AirCascades.pdf) [DOI](https://doi.org/10.1016/j.visinf.2026.100335)
 </div>
 </div> 
+
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">ChinaVis 2026</div><img src='paperInfo/ActSoon.png' alt="ActSoon" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ActSoon: Intelligent Aircraft Taxiing Scheduling through Integrated Spatio-Temporal Visual Analytics](./paperInfo/ActSoon.pdf)
+
+Luge Yang, Guoqiang Wang, Fengjie Wang, Yimeng Wang, Qipeng Wang, Yong Wang, <span class="me">Xiaolin Wen</span>, Min Zhu
+
+China Visualization and Visual Analytics Conference (ChinaVis 2026), 2026.
+
+[PDF](./paperInfo/ActSoon.pdf)
+</div>
+</div>
 
 <div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TOSEM</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
