@@ -566,9 +566,9 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   <div class='paper-box-image'>
     <div style="position: relative;">
       <div class="badge">VI 2022</div>
-      <img src='paperInfo/MDVis.png' alt="MDIVis" width="100%">
+      <img src='paperInfo/MDIVis.png' alt="MDIVis" width="100%">
     </div>
-  </div>
+  </div> 
   <div class='paper-box-text' markdown="1">
 
   [MDIVis: Visual Analytics of Multiple Destination Images on Tourism User Generated Content](./paperInfo/MDIVis.pdf)
