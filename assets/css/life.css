@@ -1,8 +1,6 @@
 .life-page .life-main { max-width: 1120px; margin: 0 auto; padding: 42px 24px 72px; }
-.life-intro { margin-bottom: 28px; }
-.life-eyebrow { margin: 0 0 10px; color: #718d7e; font-size: 11px; letter-spacing: .18em; }
-.life-intro h1 { margin: 0 0 8px; color: #304f43; font-size: 48px; letter-spacing: -.04em; }
-.life-intro > p:last-child { margin: 0; color: #617c6d; }
+.life-intro { margin-bottom: 30px; text-align: center; }
+.life-page .life-intro h1 { margin: 0; color: #304f43; font-family: "Allura Signature", "Brush Script MT", cursive; font-size: 48px; font-weight: 400; line-height: 1.25; letter-spacing: 0; }
 .life-gallery { position: relative; }
 .life-gallery.is-justified .life-photo { position: absolute; margin: 0; }
 .life-photo, .life-placeholder { position: relative; margin: 0 0 6px; border-radius: 0; overflow: hidden; background: #e2ece2; }
@@ -27,7 +25,7 @@
 
 @media (max-width: 540px) {
   .life-page .life-main { padding: 28px 20px 48px; }
-  .life-intro h1 { font-size: 38px; }
+  .life-page .life-intro h1 { font-size: 36px; }
 
 }
 @media (hover: none), (pointer: coarse), (max-width: 540px) {
