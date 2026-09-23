@@ -40,6 +40,28 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.visitor-map {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid $border-color;
+    text-align: center;
+
+    &__widget {
+        width: 100%;
+        max-width: 480px;
+        margin: 1em auto;
+
+        iframe, img, canvas {
+            max-width: 100%;
+        }
+    }
+
+    .visitor-map__caption {
+        color: $primary-color;
+        font-size: 0.75em;
+    }
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
@@ -107,3 +129,5 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+@import "mint-home";

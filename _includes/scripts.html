@@ -1,4 +1,5 @@
 <script src="assets/js/main.min.js"></script>
+{% if page.permalink == '/' %}<script src="assets/js/visitor-map-layout.js"></script>{% endif %}
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

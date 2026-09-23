@@ -1,5 +1,9 @@
 # main links links
 main:
+  - title: "CV"
+    url: "/cv/"
+    new_tab: true
+
   - title: "About Me"
     url: "/#about-me"
 

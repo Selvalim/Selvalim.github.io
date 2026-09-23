@@ -1,0 +1,23 @@
+# Supplementary information from the supplied CV; shared content comes from about.md.
+name: Xiaolin Wen
+website: https://wenxiaolin.com/
+languages:
+  - Chinese (native proficiency)
+  - English (full professional proficiency)
+skills:
+  - JavaScript
+  - D3.js
+  - Vue.js
+  - React.js
+  - Node.js
+  - Python
+  - Scikit-learn
+  - Solidity
+presentations:
+  - "**2025.11** — Oral paper presentation, IEEE VIS, Vienna, Austria."
+  - "**2025.04** — Oral paper presentation, PacificVis (online)."
+  - "**2024.10** — Oral paper presentation, IEEE VIS (online)."
+  - "**2023.04** — Oral paper presentation, ACM CHI, Hamburg, Germany."
+summer_schools:
+  - "**2021.07** — Peking University International Visualization Summer School (online)."
+  - "**2020.07** — Zhejiang University Visualization Summer School (online)."

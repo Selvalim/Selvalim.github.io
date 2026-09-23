@@ -1,0 +1,117 @@
+---
+layout: null
+permalink: /cv/
+title: Xiaolin Wen — Academic CV
+---
+{% capture source %}{% include home-content.md %}{% endcapture %}
+{% assign intro = source | split: '<div class="intro-card" markdown="1">' | last | split: '</div>' | first %}
+{% assign status = intro | split: 'I am now a ' | last | split: ' in [' | first %}
+{% assign interests = intro | split: 'My research interests include ' | last | split: 'Email:' | first %}
+{% assign service = intro | split: 'I have also served as a reviewer for ' | last | split: 'My research interests' | first %}
+{% assign education = source | split: '# 📖 Educations' | last | split: '# 🎓 Teaching Experience' | first %}
+{% assign teaching = source | split: '# 🎓 Teaching Experience' | last | split: '# 💬 Invited Talks' | first %}
+{% assign experience = source | split: '# 💻 Internships' | last %}
+{% assign awards = source | split: '# 🎖 Honors and Awards' | last | split: '# 📖 Educations' | first %}
+{% assign talks = source | split: '# 💬 Invited Talks' | last | split: '# 💻 Internships' | first %}
+{% assign papers = source | split: 'data-categories=' %}
+{% assign paper_text_marker = "<div class='paper-box-text' markdown=" | append: '"1">' %}
+{% assign cv_link_prefix = 'href="' | append: site.data.cv.website %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic curriculum vitae of Xiaolin Wen: education, research, publications, and academic service.">
+  <title>Xiaolin Wen — Academic CV</title>
+  <link rel="stylesheet" href="{{ '/assets/css/cv.css' | relative_url }}">
+</head>
+<body>
+  <nav class="cv-toolbar" aria-label="CV actions">
+    <a href="{{ '/' | relative_url }}">← Homepage</a>
+    <span>Academic CV · Single column</span>
+    <div class="cv-actions">
+      <button id="print-cv" type="button">Print</button>
+      <button id="export-cv" type="button" data-library-base="{{ '/assets/lib/pdfmake/' | relative_url }}">Download PDF</button>
+    </div>
+  </nav>
+  <p class="cv-help" id="cv-export-status" role="status">Download a single-column A4 PDF, or print this page.</p>
+  <main class="cv-document">
+    <header class="cv-header">
+      <img class="cv-portrait" src="{{ '/images/cv-portrait.jpg' | relative_url }}" alt="Xiaolin Wen" width="100" height="140">
+      <p class="cv-eyebrow">CURRICULUM VITAE</p>
+      <h1>{{ site.data.cv.name }}</h1>
+      <p class="cv-position">{{ status }} · {{ site.author.bio }} · {{ site.author.location }}</p>
+      <div class="cv-contact">
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><span> · </span>
+        <a href="{{ site.data.cv.website }}">wenxiaolin.com</a><span> · </span>
+        <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      </div>
+    </header>
+    <section class="cv-section">
+      <h2>Research Interests</h2>
+      {{ interests | strip | prepend: 'My research interests include ' | markdownify }}
+    </section>
+    <section class="cv-section">
+      <h2>Education</h2>
+      {{ education | replace: 'now', 'present' | markdownify }}
+    </section>
+    <section class="cv-section">
+      <h2>Research Experience</h2>
+      {{ experience | markdownify }}
+    </section>
+    {% assign groups = 'Published & Accepted|Preprints & Under Review' | split: '|' %}
+    {% for group in groups %}
+    <section class="cv-section cv-publications">
+      <h2>{{ group }}</h2>
+      <ol>
+      {% for record in papers offset:1 %}
+        {% assign under_review = false %}
+        {% if record contains 'badge">Under review' or record contains 'badge">Preprint' %}{% assign under_review = true %}{% endif %}
+        {% assign show_paper = false %}
+        {% if forloop.parentloop.first and under_review == false %}{% assign show_paper = true %}{% endif %}
+        {% if forloop.parentloop.last and under_review %}{% assign show_paper = true %}{% endif %}
+        {% if show_paper %}
+          {% assign paper = record | split: paper_text_marker | last | split: '</div>' | first | strip %}
+          <li class="cv-publication">{{ paper | replace: '🏆 ', '' | replace: '🏅 ', '' | replace: '[[PDF]', '[PDF]' | markdownify | replace: 'href="./', cv_link_prefix }}</li>
+        {% endif %}
+      {% endfor %}
+      </ol>
+    </section>
+    {% endfor %}
+    <section class="cv-section">
+      <h2>Honors & Awards</h2>
+      {{ awards | replace: 'Compueter', 'Computer' | replace: 'First Price', 'First Prize' | markdownify }}
+    </section>
+    <section class="cv-section">
+      <h2>Teaching Experience</h2>
+      {{ teaching | markdownify }}
+    </section>
+    <section class="cv-section">
+      <h2>Academic Service</h2>
+      {{ service | strip | prepend: 'Reviewer for ' | markdownify }}
+    </section>
+    <section class="cv-section">
+      <h2>Invited Talks</h2>
+      {{ talks | markdownify }}
+    </section>
+    <section class="cv-section">
+      <h2>Conference Presentations</h2>
+      <ul>{% for entry in site.data.cv.presentations %}<li>{{ entry | markdownify }}</li>{% endfor %}</ul>
+    </section>
+    <section class="cv-section">
+      <h2>Summer Schools</h2>
+      <ul>{% for entry in site.data.cv.summer_schools %}<li>{{ entry | markdownify }}</li>{% endfor %}</ul>
+    </section>
+    <section class="cv-section cv-compact">
+      <h2>Technical Skills</h2>
+      <p>{{ site.data.cv.skills | join: ' · ' }}</p>
+    </section>
+    <section class="cv-section cv-compact">
+      <h2>Languages</h2>
+      <p>{{ site.data.cv.languages | join: ' · ' }}</p>
+    </section>
+  </main>
+  <script src="{{ '/assets/js/cv-export.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/cv.js' | relative_url }}"></script>
+</body>
+</html>

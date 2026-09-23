@@ -1,0 +1,65 @@
+:root { color-scheme: light; --ink: #253e38; --accent: #23675b; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: #f2f5ef; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 14px; line-height: 1.55; }
+a { color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { color: #122e25; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.cv-toolbar { max-width: 940px; margin: 24px auto 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 0 20px; }
+.cv-toolbar > span { color: #61756a; font-size: 12px; }
+.cv-actions { display: flex; gap: 8px; }
+.cv-toolbar #print-cv { background: white; }
+.cv-toolbar button { border: 1px solid #fff; border-radius: 20px; padding: 10px 18px; background: #cee5d9; color: #234f3f; font: inherit; cursor: pointer; box-shadow: 0 2px 8px #274e3515; }
+.cv-help { margin: 12px 20px 20px; text-align: center; color: #61756a; font-size: 12px; }
+.cv-document { max-width: 900px; margin: 0 auto 48px; padding: 52px 62px; background: #fff; border: 1px solid #e1e8e1; border-radius: 8px; box-shadow: 0 15px 50px #274e3510; }
+.cv-header { position: relative; min-height: 162px; padding: 0 122px 22px 0; border-bottom: 2px solid var(--accent); }
+.cv-portrait { position: absolute; top: 0; right: 0; width: 100px; height: 140px; object-fit: contain; }
+.cv-eyebrow { font-size: 10px; letter-spacing: 0.2em; color: #6c7b71; margin: 0 0 8px; }
+h1 { font-size: 32px; font-weight: 650; letter-spacing: -0.03em; margin: 0 0 6px; line-height: 1.2; }
+.cv-position { margin: 8px 0; font-size: 14px; }
+.cv-contact { font-size: 12px; }
+.cv-section { margin-top: 24px; }
+h2 { font-size: 15px; letter-spacing: 0.025em; color: var(--accent); border-bottom: 1px solid #cbd8ce; margin: 0 0 10px; padding-bottom: 5px; font-weight: 650; }
+p { margin: 0 0 6px; }
+ul, ol { padding-left: 20px; margin: 0; }
+li { margin-bottom: 8px; }
+li > p { margin-bottom: 0; }
+li ul { margin-top: 4px; }
+li li { margin-bottom: 2px; }
+em { font-style: normal; font-variant-numeric: tabular-nums; }
+.cv-publication { padding-left: 3px; margin-bottom: 15px; line-height: 1.45; }
+.cv-publication p { margin: 0 0 3px; }
+.cv-publication p:first-child { font-weight: 650; }
+.cv-publication p:first-child a { text-decoration: none; color: #253e38; }
+.cv-publication p:nth-child(n+3) { font-size: 12px; }
+.me { font-weight: 650; text-decoration: underline; text-underline-offset: 2px; }
+.cv-compact { break-inside: avoid; }
+@media (max-width: 600px) {
+  .cv-toolbar { flex-wrap: wrap; margin-top: 16px; }
+  .cv-toolbar > span { display: none; }
+  .cv-document { padding: 28px 22px; margin: 0 10px 30px; }
+  h1 { font-size: 28px; }
+  .cv-contact { overflow-wrap: anywhere; }
+  .cv-header { padding-right: 86px; }
+  .cv-portrait { width: 70px; height: 98px; }
+}
+@page { size: A4; margin: 16mm 17mm 18mm; @bottom-right { content: counter(page); font-size: 9pt; color: #666; } }
+@media print {
+  body { background: white; color: #202722; font-size: 10pt; line-height: 1.4; }
+  .cv-toolbar, .cv-help { display: none; }
+  .cv-document { max-width: none; padding: 0; margin: 0; border: 0; border-radius: 0; box-shadow: none; }
+  .cv-header { min-height: 96pt; padding: 0 78pt 12px 0; }
+  .cv-portrait { width: 60pt; height: 84pt; }
+  h1 { font-size: 25pt; }
+  .cv-position { font-size: 10pt; }
+  .cv-contact { font-size: 9pt; }
+  .cv-section { margin-top: 15px; }
+  h2 { font-size: 11pt; break-after: avoid; page-break-after: avoid; }
+  li, .cv-publication, .cv-header { break-inside: avoid; page-break-inside: avoid; }
+  .cv-publication { margin-bottom: 10px; }
+  .cv-publication p:nth-child(n+3) { font-size: 9pt; }
+  .cv-publication p:not(:first-child) a { display: none; }
+  .cv-publication span[style*="color"] { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  p { orphans: 3; widows: 3; }
+  a { color: #202722; text-decoration: none; }
+}

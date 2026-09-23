@@ -11,6 +11,11 @@ description              : "A day without dancing is a silent sorrow to the life
 repository               : "Selvalim/Selvalim.github.io"
 google_scholar_stats_use_cdn : true
 
+# Create a widget for https://wenxiaolin.com at https://mapmyvisitors.com/add.
+# Paste the value of its script URL's d parameter here to enable the visitor map.
+visitor_map:
+  id: "7620CmaH-ken99qk5jSuYgdwx3OILxvaVOKo8LoLCdg"
+
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
@@ -65,6 +70,8 @@ include:
   - _pages
   - files
 exclude:
+  - scripts
+  - output
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

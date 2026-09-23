@@ -9,7 +9,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.permalink == '/' %} class="mint-home"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
@@ -22,6 +22,7 @@ layout: compress
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
             {{ content }}
+            {% if page.permalink == '/' %}<div id="visitor-map-footer"></div>{% endif %}
           </section>
         </div>
       </article>
