@@ -228,11 +228,12 @@ $mint-shadow: 0 14px 30px -20px rgba(43, 84, 70, 0.35),
     width: 100%;
     max-width: 320px;
     margin: 20px auto 0;
-    padding-top: 16px;
+    padding-top: 10px;
     border-top: 1px solid $mint-line;
-    &__heading { display: block; text-align: center; font-size: 12px; text-decoration: none; }
-    &__total { color: #617c6d; font-size: 11px; }
-    &__chart { display: flex; align-items: end; gap: 8px; overflow-x: auto; padding: 12px 4px 0; }
+    &__plot { position: relative; }
+    &__heading { position: absolute; top: 0; left: 4px; z-index: 1; display: block; text-align: left; font-size: 12px; line-height: 1.4; text-decoration: none; }
+    &__total { display: block; color: #617c6d; font-size: 10px; }
+    &__chart { display: flex; align-items: end; gap: 8px; overflow-x: auto; min-height: 125px; padding: 0 4px; }
     &__column { flex: 1 0 24px; display: flex; flex-direction: column; align-items: center; justify-content: end; }
     &__value { color: #496d5b; font-size: 10px; margin-bottom: 3px; }
     &__bar { display: block; width: 75%; max-width: 28px; background: #92b8a3; border-radius: 2px 2px 0 0; }
@@ -240,18 +241,17 @@ $mint-shadow: 0 14px 30px -20px rgba(43, 84, 70, 0.35),
     .scholar-stats__updated { margin: 8px 0 0; text-align: center; font-size: 10px; color: #617c6d; }
   }
   .publication-stats {
-    margin-top: 16px;
-    padding-top: 14px;
-    border-top: 1px solid $mint-line;
+    position: relative;
+    margin-top: 10px;
   }
   .visitor-map {
     .mapmyvisitors-date, .mapmyvisitors-visitors { display: none !important; }
     width: 100%;
     margin-top: 20px;
-    padding: 18px 0 0;
+    padding: 8px 0 0;
     border-top: 1px solid $mint-line;
-    h2 { margin: 0 0 10px; font-size: 0.9em; font-weight: 500; color: #365d4a; }
-    &__widget { max-width: 220px; margin: 0 auto; border-radius: 12px; overflow: hidden; }
+    h2 { position: absolute; top: 4px; left: 6px; z-index: 1; margin: 0; font-size: 12px; font-weight: 500; color: #365d4a; pointer-events: none; }
+    &__widget { position: relative; max-width: 220px; margin: 0 auto; border-radius: 12px; overflow: hidden; }
     .visitor-map__caption { margin: 8px 0 0; color: #526d5e; font-size: 10px; line-height: 1.5; }
   }
 
