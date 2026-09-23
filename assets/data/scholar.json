@@ -1,0 +1,176 @@
+{
+  "author_id": "qN8hC60AAAAJ",
+  "updated": "2026-09-23T16:41:46.762742+00:00",
+  "citedby": 204,
+  "cites_per_year": {
+    "2022": 11,
+    "2023": 20,
+    "2024": 39,
+    "2025": 61,
+    "2026": 71
+  },
+  "publications": [
+    {
+      "title": "Nftdisk: Visual detection of wash trading in nft markets",
+      "num_citations": 50,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:u-x6o8ySG0sC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6549485696637866535"
+    },
+    {
+      "title": "VIOLET: Visual Analytics for Explainable Quantum Neural Networks",
+      "num_citations": 25,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:IjCSPb-OGe4C",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17801168119473827468,13491473087669339104,857894190829775729"
+    },
+    {
+      "title": "MDIVis: Visual analytics of multiple destination images on tourism user generated content",
+      "num_citations": 24,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:2osOgNQ5qMEC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13078511955160362951"
+    },
+    {
+      "title": "TriPlan: an interactive visual analytics approach for better tourism route planning: X. Zhang et al.",
+      "num_citations": 19,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:UeHWp8X0CEIC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3925227775812259054"
+    },
+    {
+      "title": "MulUBA: multi-level visual analytics of user behaviors for improving online shopping advertising",
+      "num_citations": 17,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:u5HHmVD_uO8C",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=235664209320775746"
+    },
+    {
+      "title": "Code will tell: Visual identification of ponzi schemes on ethereum",
+      "num_citations": 14,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:9yKSN-GCB0IC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9985409269111172984"
+    },
+    {
+      "title": "Ponzilens+: Visualizing bytecode actions for smart ponzi scheme identification",
+      "num_citations": 11,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:eQOLeE2rZwMC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5890802816689518350"
+    },
+    {
+      "title": "Qualitative study for LLM-assisted design study process: Strategies, challenges, and roles",
+      "num_citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:Se3iqnhoufwC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16132869886897511834"
+    },
+    {
+      "title": "WarehouseLens: visualizing and exploring turnover events of digital warehouse: F. Chen et al.",
+      "num_citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:d1gkVwhDpl0C",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2859823508559879493"
+    },
+    {
+      "title": "Envisage: Towards expressive visual graph querying",
+      "num_citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:UebtZRa9Y70C",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11410351085627816029"
+    },
+    {
+      "title": "IntelliCircos: A Data‐driven and AI‐powered Authoring Tool for Circos Plots",
+      "num_citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:roLk4NBRz8UC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3528357376731611510"
+    },
+    {
+      "title": "DiffSeer: Difference-Based Dynamic Weighted Graph Visualization",
+      "num_citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:qjMakFHDy7sC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13920709078269993929,5623041422859470054"
+    },
+    {
+      "title": "PrettiSmart: Visual Interpretation of Smart Contracts via Simulation",
+      "num_citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:WF5omc3nYNoC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9244556600300153915"
+    },
+    {
+      "title": "When the Chain Breaks: Interactive Diagnosis of LLM Chain‐of‐Thought Reasoning Errors",
+      "num_citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:8k81kl-MbHgC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5630158613670196108"
+    },
+    {
+      "title": "Human in the loop for fuzz testing: Literature review and the road ahead",
+      "num_citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:0EnyYjriUFMC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=492794227780876927"
+    },
+    {
+      "title": "AirCascades: A visual analytics system for cascading taxiway interaction patterns",
+      "num_citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:kNdYIx-mwKoC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1883088717379002294"
+    },
+    {
+      "title": "From Static to Interactive: Authoring Interactive Visualizations via Natural Language",
+      "num_citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:hqOjcs7Dif8C",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12990616417009865073,13820589375612808673"
+    },
+    {
+      "title": "面向综合素养培育的数据可视化课程教学改革与实践",
+      "num_citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:Y0pCki6q_DkC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13413568744862795471"
+    },
+    {
+      "title": "SAVVY: Student Attention Visualization for Video-based Learning Analysis",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:_kc_bZDykSQC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:_kc_bZDykSQC"
+    },
+    {
+      "title": "ManiScope: LLM-Assisted Visual Analytics of Cryptocurrency Manipulation Risk",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:Zph67rFs4hoC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:Zph67rFs4hoC"
+    },
+    {
+      "title": "Vibe Coding for Visualization Implementation: An Empirical Study of Practices and Challenges",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:KlAtU1dfN6UC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:KlAtU1dfN6UC"
+    },
+    {
+      "title": "ReVis: Towards Reusable Image-Based Visualizations with MLLMs",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:MXK_kJrjxJIC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:MXK_kJrjxJIC"
+    },
+    {
+      "title": "InconLens: Interactive Visual Diagnosis of Behavioral Inconsistencies in LLM-based Agentic Systems",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:5nxA0vEk-isC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:5nxA0vEk-isC"
+    },
+    {
+      "title": "EvoMaestro: Toward Interpretable and Steerable LLM-Driven Program Evolution",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:YOwf2qJgpHMC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:YOwf2qJgpHMC"
+    },
+    {
+      "title": "Visualization for Quantum Computing: Current State and Future Directions",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:3fE2CSJIrl8C",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "基于DPoS共识机制的区块链社区演化的可视分析方法",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:W7OEmFMy1HYC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:W7OEmFMy1HYC"
+    },
+    {
+      "title": "ActSoon: Intelligent Aircraft Taxiing Scheduling through Integrated Spatio-Temporal Visual Analytics",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:ULOm3_A8WrAC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:ULOm3_A8WrAC"
+    }
+  ]
+}

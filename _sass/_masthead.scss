@@ -43,11 +43,40 @@
   }
 }
 
+// Self-hosted Allura, SIL Open Font License (assets/fonts/allura/OFL.txt).
+@font-face {
+  font-family: "Allura Signature";
+  src: url("../fonts/allura/Allura-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
+  display: table-cell !important;
+  padding-right: .6em;
+}
+
+.greedy-nav a.site-signature {
+  width: 156px;
+  margin-right: 14px;
+  padding: 0;
+  font-family: "Allura Signature", "Brush Script MT", cursive;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -.025em;
+  white-space: nowrap;
+
+  &:before { display: none; }
+}
+
+@media (max-width: 540px) {
+  .greedy-nav a.site-signature {
+    width: 128px;
+    font-size: 30px;
+    margin-right: 10px;
   }
-  display: none !important;
 }
 
 .masthead__menu-item {
@@ -60,5 +89,3 @@
     font-weight: 700;
   }
 }
-
-

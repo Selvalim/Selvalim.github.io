@@ -1,6 +1,6 @@
 # Academic CV
 
-Open `/cv/` using the CV navigation link (opens in a new tab). Click **Download PDF** to generate a single-column A4 PDF directly in the browser, with clickable links and page numbers. The button reads the current CV page, so it never downloads a stale prebuilt PDF. Generation stays on the user's device. The bundled pdfmake 0.2.20 library and Roboto fonts load only when exporting; their MIT license is in `assets/lib/pdfmake/LICENSE`.
+Open `/cv/` using the CV navigation link (opens in the current tab). Click **Download PDF** to generate a single-column A4 PDF directly in the browser, with clickable links and page numbers. The button reads the current CV page, so it never downloads a stale prebuilt PDF. Generation stays on the user's device. The bundled pdfmake 0.2.20 library and Roboto fonts load only when exporting; their MIT license is in `assets/lib/pdfmake/LICENSE`.
 
 Alternatively, click **Print**, select **Save as PDF**, and disable browser headers/footers. The print version uses the same content with its own A4 stylesheet; page count may differ by browser. The local `output/pdf/` file is a verification snapshot, not served by the website.
 

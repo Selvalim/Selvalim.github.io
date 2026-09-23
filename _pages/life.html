@@ -1,0 +1,39 @@
+---
+layout: life
+permalink: /life/
+title: Life
+author_profile: false
+---
+<header class="life-intro">
+  <p class="life-eyebrow">BEYOND RESEARCH</p>
+  <h1>Life</h1>
+  <p>Small moments, collected.</p>
+</header>
+{% if site.data.life.size > 0 %}
+{% assign life_entries = site.data.life | sort: 'year' | reverse %}
+<div class="life-gallery" aria-label="Life photos, newest first">
+  {% for entry in life_entries %}
+  <figure class="life-photo" tabindex="0" aria-labelledby="life-caption-{{ forloop.index }}">
+    {% assign dimensions = site.data.life_image_sizes[entry.image] %}
+    <img src="{{ entry.image | relative_url }}" alt="{{ entry.alt | default: entry.title | escape }}" loading="lazy" decoding="async"{% if dimensions %} width="{{ dimensions.width }}" height="{{ dimensions.height }}"{% endif %}>
+    <button class="life-caption-toggle" type="button" aria-expanded="false" aria-controls="life-caption-{{ forloop.index }}" aria-label="Show photo caption"></button>
+    <figcaption id="life-caption-{{ forloop.index }}">
+      <div class="life-photo-meta"><time datetime="{{ entry.year }}">{{ entry.year }}</time>{% if entry.location %}<span>·</span><span>{{ entry.location | escape }}</span>{% endif %}</div>
+      {% if entry.caption %}<p>{{ entry.caption | escape | newline_to_br }}</p>{% endif %}
+    </figcaption>
+  </figure>
+  {% endfor %}
+</div>
+{% else %}
+<div class="life-empty">
+  <p>Photos & stories coming soon.</p>
+  <div class="life-gallery life-placeholders" aria-hidden="true">
+    <div class="life-placeholder life-photo--portrait"></div>
+    <div class="life-placeholder life-photo--landscape"></div>
+    <div class="life-placeholder life-photo--square"></div>
+    <div class="life-placeholder life-photo--landscape"></div>
+    <div class="life-placeholder life-photo--portrait"></div>
+    <div class="life-placeholder life-photo--square"></div>
+  </div>
+</div>
+{% endif %}

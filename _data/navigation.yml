@@ -1,26 +1,19 @@
-# main links links
 main:
-  - title: "CV"
-    url: "/cv/"
-    new_tab: true
-
-  - title: "About Me"
+  - title: "About"
     url: "/#about-me"
-
   - title: "News"
     url: "/#-news"
-
   - title: "Publications"
     url: "/#publications"
-
-  - title: "Honors and Awards"
+  - title: "Awards"
     url: "/#-honors-and-awards"
-
-  - title: "Educations"
+  - title: "Education"
     url: "/#-educations"
-
-  - title: "Invited Talks"
+  - title: "Talks"
     url: "/#-invited-talks"
-
-  - title: "Internships"
+  - title: "Experience"
     url: "/#-internships"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Life"
+    url: "/life/"

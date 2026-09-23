@@ -18,5 +18,5 @@ expected_lists.each do |title, id|
   section = cv.css('.cv-section').find { |s| s.at_css('h2')&.text == title }
   raise "Invalid #{title} extraction" unless count.positive? && section && section.css('> ul > li').length == count
 end
-raise 'CV must open in a new tab' unless home.at_css('a[href="/cv/"][target="_blank"]')
+raise 'CV must open in the current tab' unless home.at_css('a[href="/cv/"][target="_self"]')
 puts "CV checks passed: #{cv_titles.length} papers, shared sections, public contacts, and navigation."

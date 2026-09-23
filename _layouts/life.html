@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Life — {{ site.title }}</title>
+    <meta name="description" content="Photos and small moments from Xiaolin Wen's life.">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/life.css' | relative_url }}">
+    <link rel="icon" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  </head>
+  <body class="mint-home life-page">
+    {% include masthead.html %}
+    <main class="life-main">{{ content }}</main>
+    <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/lib/justified-layout.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/life.js' | relative_url }}"></script>
+  </body>
+</html>

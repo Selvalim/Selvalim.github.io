@@ -59,17 +59,20 @@ title: Xiaolin Wen — Academic CV
       <h2>Research Experience</h2>
       {{ experience | markdownify }}
     </section>
-    {% assign groups = 'Published & Accepted|Preprints & Under Review' | split: '|' %}
+    {% assign groups = 'Published & Accepted|Preprints & Under Review|Books' | split: '|' %}
     {% for group in groups %}
     <section class="cv-section cv-publications">
       <h2>{{ group }}</h2>
       <ol>
       {% for record in papers offset:1 %}
+        {% assign is_book = false %}
+        {% if record contains 'badge">Book ' %}{% assign is_book = true %}{% endif %}
         {% assign under_review = false %}
         {% if record contains 'badge">Under review' or record contains 'badge">Preprint' %}{% assign under_review = true %}{% endif %}
         {% assign show_paper = false %}
-        {% if forloop.parentloop.first and under_review == false %}{% assign show_paper = true %}{% endif %}
-        {% if forloop.parentloop.last and under_review %}{% assign show_paper = true %}{% endif %}
+        {% if group == 'Published & Accepted' and under_review == false and is_book == false %}{% assign show_paper = true %}{% endif %}
+        {% if group == 'Preprints & Under Review' and under_review %}{% assign show_paper = true %}{% endif %}
+        {% if group == 'Books' and is_book %}{% assign show_paper = true %}{% endif %}
         {% if show_paper %}
           {% assign paper = record | split: paper_text_marker | last | split: '</div>' | first | strip %}
           <li class="cv-publication">{{ paper | replace: '🏆 ', '' | replace: '🏅 ', '' | replace: '[[PDF]', '[PDF]' | markdownify | replace: 'href="./', cv_link_prefix }}</li>

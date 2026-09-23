@@ -144,7 +144,7 @@ $mint-shadow: 0 14px 30px -20px rgba(43, 84, 70, 0.35),
   }
 
   .pub-scroll {
-    max-height: 1800px;
+    max-height: 1300px;
     padding: 2px 10px 16px 2px;
     background: transparent;
     border: none;
@@ -155,8 +155,39 @@ $mint-shadow: 0 14px 30px -20px rgba(43, 84, 70, 0.35),
     &::-webkit-scrollbar-track { background: transparent; }
     &::-webkit-scrollbar-thumb { background: #aacabb; border: 2px solid #f7f5ef; }
   }
+  .publication-year-group {
+    margin-bottom: 18px;
+    > summary {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 4px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid $mint-line;
+      color: #365d4a;
+      font-size: 1.15em;
+      font-weight: 650;
+      cursor: pointer;
+      list-style: none;
+      &::-webkit-details-marker { display: none; }
+      &::after {
+        content: '';
+        width: 8px;
+        height: 8px;
+        margin: 0 6px 4px auto;
+        border-right: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
+        transform: rotate(45deg);
+      }
+      &:focus-visible { outline: 2px solid #477e6f; outline-offset: 3px; }
+    }
+    &[open] > summary::after { transform: rotate(225deg); margin-bottom: -4px; }
+  }
+  .publication-year-count { color: #738d7e; font-size: 0.75em; font-weight: 400; }
   .paper-box {
     @include mint-glass;
+    position: relative;
+    isolation: isolate;
     margin-bottom: 12px;
     padding: 16px 22px;
     border-radius: 14px;
@@ -165,12 +196,53 @@ $mint-shadow: 0 14px 30px -20px rgba(43, 84, 70, 0.35),
     .paper-box-text > p:first-child a { font-weight: 650; text-decoration: none; }
     .paper-box-text > p:first-child a:hover { text-decoration: underline; }
   }
+  .paper-box[data-categories~="books"] .paper-box-image {
+    justify-content: center;
+    img { display: block; margin: 0 auto; }
+  }
+  .paper-year {
+    position: absolute;
+    right: 18px;
+    bottom: 10px;
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
+    text-align: right;
+    color: #c2dace;
+    font-size: clamp(36px, 4vw, 48px);
+    font-weight: 750;
+    line-height: 1;
+    letter-spacing: -0.045em;
+    font-variant-numeric: tabular-nums;
+  }
   .pub-scroll .badge {
     color: #235542;
     background: linear-gradient(135deg, #eff9f2, #c9e2d2);
     border: 1px solid #fff;
     font-size: 0.8em;
     box-shadow: 0 3px 10px rgba(35, 76, 54, 0.14);
+  }
+  .paper-citations { display: inline-block; margin-left: 0.6em; white-space: nowrap; }
+  .scholar-stats {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto 0;
+    padding-top: 16px;
+    border-top: 1px solid $mint-line;
+    &__heading { display: block; text-align: center; font-size: 12px; text-decoration: none; }
+    &__total { color: #617c6d; font-size: 11px; }
+    &__chart { display: flex; align-items: end; gap: 8px; overflow-x: auto; padding: 12px 4px 0; }
+    &__column { flex: 1 0 24px; display: flex; flex-direction: column; align-items: center; justify-content: end; }
+    &__value { color: #496d5b; font-size: 10px; margin-bottom: 3px; }
+    &__bar { display: block; width: 75%; max-width: 28px; background: #92b8a3; border-radius: 2px 2px 0 0; }
+    &__year { color: #617c6d; font-size: 10px; margin-top: 5px; }
+    .scholar-stats__updated { margin: 8px 0 0; text-align: center; font-size: 10px; color: #617c6d; }
+  }
+  .publication-stats {
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid $mint-line;
   }
   .visitor-map {
     .mapmyvisitors-date, .mapmyvisitors-visitors { display: none !important; }
@@ -191,7 +263,17 @@ $mint-shadow: 0 14px 30px -20px rgba(43, 84, 70, 0.35),
   }
 
   @media (max-width: 924px) {
-    .profile_box { padding: 16px 20px; margin-bottom: 24px; flex-wrap: wrap; }
+    .scholar-stats { display: none; }
+    .sidebar { margin-bottom: 8px; }
+    .profile_box {
+      padding: 8px 20px;
+      margin-bottom: 0;
+      flex-wrap: wrap;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
     .author__name { margin-top: 0; }
     .author__urls { margin-top: 0; }
     .author__content { padding-left: 12px; }

@@ -1,0 +1,11 @@
+<section class="scholar-stats" aria-label="Google Scholar citations"
+  data-source="https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json"
+  data-fallback="{{ '/assets/data/scholar.json' | relative_url }}">
+  <a class="scholar-stats__heading" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span class="scholar-stats__total"></span></a>
+  <div class="scholar-stats__chart" aria-label="Citations by year"></div>
+  <p class="scholar-stats__updated" aria-live="polite">Loading citation data…</p>
+  <div class="publication-stats" aria-label="Publications by year">
+    <a class="scholar-stats__heading" href="#publications">Publications <span class="publication-stats__total scholar-stats__total"></span></a>
+    <div class="publication-stats__chart scholar-stats__chart" aria-label="Number of papers by year"></div>
+  </div>
+</section>

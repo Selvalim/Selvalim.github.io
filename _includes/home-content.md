@@ -9,7 +9,7 @@
 <span class='anchor' id='about-me'></span>
 
 # **Xiaolin Wen 温啸林 (Shawn)**
-I am now a PhD candidate in [VIDA Lab](https://vida-lab.org/) at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) under the guidance of [Prof. Yong Wang](https://yong-wang.org/index.html). In 2023, I got my master's degree in computer science at Vision Computing Lab, Sichuan University, and my supervisor was Prof. Min Zhu. In 2020, I got my dual bachelor's degree in computer science and technology & financial engineering at Sichuan University. I have also served as a reviewer for major conferences and journals in visualization, HCI, and Blockchain, including IEEE VIS, ACM CHI, IEEE PacificVis, ChinaVis, IEEE TVCG, and TWEB.
+I am now a PhD candidate in [VIDA Lab](https://vida-lab.org/) at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) under the guidance of [Prof. Yong Wang](https://yong-wang.org/index.html). In 2023, I got my master's degree in computer science at [Vision Computing Lab](https://scuvis.org/), [Sichuan University](https://www.scu.edu.cn/), and my supervisor was [Prof. Min Zhu](https://cs.scu.edu.cn/info/1279/19761.htm). In 2020, I got my dual bachelor's degree in computer science and technology & financial engineering at [Sichuan University](https://www.scu.edu.cn/). I have also served as a reviewer for major conferences and journals in visualization, HCI, and Blockchain, including IEEE VIS, IEEE TVCG, ACM CHI, IEEE PacificVis, ChinaVis, and TWEB.
 
 My research interests include Human-Computer Interaction and Data Visualization.
 Now, I am working on **Visualization for Fintech** and **LLM-assisted Visualization Design**.
@@ -54,7 +54,7 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 - *2022.02*: 🧑‍💻 Became a Research Assistant at **Singapore Management University**!
 - *2021.12*: 🎖️ Won the **First Prize of Tencent Scholarship** at **Sichuan University**!
 - *2021.10*: 🏫 Became a Visiting Student at **Southern University of Science and Technology**!
-- *2020.09*: 🎓 Joined **Visual Computing Lab** at **Sichuan University** to pursue a Master's degree!
+- *2020.09*: 🎓 Joined [**Visual Computing Lab**](https://scuvis.org/) at **Sichuan University** to pursue a Master's degree!
 - *2020.06*: 🎓 Graduated from **Sichuan University** with dual Bachelor's degrees in **Computer Science** and **Financial Engineering**!
 </div>
 
@@ -63,11 +63,13 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 1.4em; margin-bottom: 14px; gap: 10px;">
   <h1 id="publications" style="margin: 0; border-bottom: none; padding-bottom: 0;">📝 Publications</h1>
   <div class="filter-controls">
-    <button class="filter-btn" data-filter="all" data-label="All">All</button>
-    <button class="filter-btn active" data-filter="selected" data-label="Selected">Selected</button>
+    <button class="filter-btn active" data-filter="all" data-label="All">All</button>
+    <button class="filter-btn" data-filter="selected" data-label="Selected">Selected</button>
+    <button class="filter-btn" data-filter="awarded" data-label="Awarded">Awarded</button>
     <button class="filter-btn" data-filter="vis4fintech" data-label="Vis4FinTech">Vis4FinTech</button>
     <button class="filter-btn" data-filter="llm-vis" data-label="LLM+Vis">LLM+Vis</button>
     <button class="filter-btn" data-filter="vis4domain" data-label="Vis4Domain">Vis4Domain</button>
+    <button class="filter-btn" data-filter="books" data-label="Books">Books</button>
   </div>
 </div>
 
@@ -146,56 +148,11 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 }
 </style>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const buttons = document.querySelectorAll('.filter-btn');
-  const papers = document.querySelectorAll('.paper-box');
-  const getCategories = (paper) => (paper.getAttribute('data-categories') || '')
-    .split(/\s+/)
-    .filter(Boolean);
-
-  buttons.forEach(button => {
-    const filter = button.getAttribute('data-filter');
-    const label = button.getAttribute('data-label') || button.textContent.trim();
-    const count = filter === 'all'
-      ? papers.length
-      : Array.from(papers).filter(paper => getCategories(paper).includes(filter)).length;
-
-    button.textContent = `${label} (${count})`;
-  });
-
-  buttons.forEach(button => {
-    button.addEventListener('click', () => {
-      // Remove active class from all buttons
-      buttons.forEach(btn => btn.classList.remove('active'));
-      // Add active class to clicked button
-      button.classList.add('active');
-
-      const filter = button.getAttribute('data-filter');
-
-      papers.forEach(paper => {
-        if (filter === 'all') {
-          paper.style.display = ''; 
-        } else {
-          const categories = getCategories(paper);
-          if (categories.includes(filter)) {
-            paper.style.display = '';
-          } else {
-            paper.style.display = 'none';
-          }
-        }
-      });
-    });
-  });
-
-  const defaultButton = document.querySelector('.filter-btn[data-filter="selected"]');
-  if (defaultButton) defaultButton.click();
-});
-</script>
+<script src="{{ "/assets/js/publication-filters.js" | relative_url }}" defer></script>
 
 <div class="pub-scroll" markdown="1">
 
-<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏆 PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected llm-vis awarded'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏆 PacificVis 2026</div><img src='paperInfo/Athanor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [From Static to Interactive: Authoring Interactive Visualizations via Natural Language](https://arxiv.org/pdf/2601.17736)
@@ -207,9 +164,10 @@ Proceedings of 2026 IEEE Pacific Visualization Symposium (PacificVis 2026), 2026
 [PDF](https://arxiv.org/pdf/2601.17736) [Demo](https://authorvisinter.github.io/)
 <span style="color:#c12c1f; font-weight:bold">(🏆 Best Paper Award)</span>
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
-<div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected vis4fintech awarded'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 TVCG 2025</div><img src='paperInfo/PrettiSmart.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PrettiSmart: Visual Interpretation of Smart Contracts via Simulation](./paperInfo/PrettiSmart.pdf)
@@ -222,9 +180,10 @@ IEEE Transactions on Visualization and Computer Graphics (Proceedings of Pacific
 
 <span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
 </div>
+<div class="paper-year" aria-label="Year 2025">2025</div>
 </div> 
 
-<div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' data-categories='selected llm-vis awarded'><div class='paper-box-image'><div style="position: relative;"><div class="badge">🏅 VIS 2025</div><img src='paperInfo/LLM-DesignStudy.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles](https://arxiv.org/abs/2507.10024)
@@ -236,6 +195,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 [PDF](https://arxiv.org/abs/2507.10024) 
 <span style="color:#c12c1f; font-weight:bold">(🏅 Best Paper Honorable Mention)</span>
 </div>
+<div class="paper-year" aria-label="Year 2025">2025</div>
 </div> 
 
 <div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/SAVVY.png' alt="SAVVY system overview for student attention analysis" width="100%"></div></div>
@@ -249,6 +209,7 @@ Under review.
 
 [PDF](https://arxiv.org/pdf/2607.29413) [arXiv](https://arxiv.org/abs/2607.29413)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div>
 
 <div class='paper-box' data-categories='selected vis4fintech llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/ManiScope.png' alt="ManiScope" width="100%"></div></div>
@@ -262,6 +223,7 @@ Under review.
 
 [PDF](./paperInfo/ManiScope.pdf) [arXiv](https://arxiv.org/abs/2607.11451)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
 <div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">UIST 2026</div><img src='paperInfo/EvoMaestro.png' alt="EvoMaestro" width="100%"></div></div>
@@ -275,6 +237,7 @@ Proceedings of the 39th Annual ACM Symposium on User Interface Software and Tech
 
 [PDF](./paperInfo/EvoMaestro.pdf) [DOI](https://doi.org/10.1145/3830398.3830626)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div>
 
 <div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/vibecodingshort.png' alt="Vibe Coding Short" width="100%"></div></div>
@@ -288,6 +251,7 @@ Under review.
 
 [PDF](./paperInfo/vibecodingshort.pdf) [arXiv](https://arxiv.org/abs/2606.19703)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
 <div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">EuroVis 2026</div><img src='paperInfo/CotVis.png' alt="sym" width="100%"></div></div>
@@ -302,6 +266,7 @@ Proceedings of 2026 IEEE EuroVis (EuroVis 2026), 2026.
 
 [PDF](https://arxiv.org/abs/2603.21286) 
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
 <div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">VI 2026</div><img src='paperInfo/AirCascades.png' alt="AirCascades" width="100%"></div></div>
@@ -315,6 +280,7 @@ Visual Informatics, 2026.
 
 [PDF](./paperInfo/AirCascades.pdf) [DOI](https://doi.org/10.1016/j.visinf.2026.100335)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
 <div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">ChinaVis 2026</div><img src='paperInfo/ActSoon.png' alt="ActSoon" width="100%"></div></div>
@@ -328,6 +294,7 @@ China Visualization and Visual Analytics Conference (ChinaVis 2026), 2026.
 
 [PDF](./paperInfo/ActSoon.pdf)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div>
 
 <div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TOSEM</div><img src='paperInfo/FuzzSurvey.png' alt="sym" width="100%"></div></div>
@@ -343,6 +310,7 @@ ACM Transactions on Software Engineering and Methodology (TOSEM), 2026.
 
 [[PDF](https://arxiv.org/abs/2603.13411) 
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
 <div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/vis4qc-survey.png' alt="vis4qc-survey" width="100%"></div></div>
@@ -354,6 +322,7 @@ Feng Liang, <span class="me">Xiaolin Wen</span>, Shixian Zhou, Shaolun Ruan, Yux
 
 [PDF](./paperInfo/vis4qc-survey.pdf) [ResearchGate](https://www.researchgate.net/publication/404040113_Visualization_for_Quantum_Computing_Current_State_and_Future_Directions)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
 <div class='paper-box' data-categories='selected llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/revis.png' alt="ReVis" width="100%"></div></div>
@@ -367,6 +336,7 @@ Under review.
 
 [PDF](./paperInfo/revis.pdf) [arXiv](https://arxiv.org/abs/2604.15781)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
 <div class='paper-box' data-categories='llm-vis'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/InconLens.png' alt="InconLens" width="100%"></div></div>
@@ -380,6 +350,7 @@ Under review.
 
 [PDF](./paperInfo/InconLens.pdf) [arXiv](https://arxiv.org/abs/2603.28106)
 </div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
 <div class='paper-box' data-categories='selected vis4fintech'><div class='paper-box-image'><div style="position: relative;"><div class="badge">VIS 2025</div><img src='paperInfo/envisage.png' alt="sym" width="100%"></div></div>
@@ -393,6 +364,7 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 
 [Project Page](./_pages/envisage.html) [PDF](./paperInfo/envisage.pdf) [Source Code](https://github.com/Selvalim/VGQ-front)  
 </div>
+<div class="paper-year" aria-label="Year 2025">2025</div>
 </div> 
 
 
@@ -409,6 +381,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
 [PDF](https://arxiv.org/pdf/2503.24021) [Source Code](https://github.com/KXXH/intelliCircos)  
 </div>
+<div class="paper-year" aria-label="Year 2025">2025</div>
 </div> 
 
 <div class='paper-box' data-categories='selected vis4fintech'>
@@ -428,6 +401,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [PDF](./paperInfo/PonziLens+.pdf) [Demo Video](https://youtu.be/wqjmFaLUrns)
   </div>
+<div class="paper-year" aria-label="Year 2025">2025</div>
 </div>
 
 <div class='paper-box' data-categories='vis4domain'>
@@ -447,6 +421,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [PDF](./paperInfo/violet.pdf)
   </div>
+<div class="paper-year" aria-label="Year 2024">2024</div>
 </div>
 
 <div class='paper-box' data-categories='selected vis4fintech'>
@@ -467,6 +442,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 [PDF](./paperInfo/NFTDisk.pdf)
 [Slides](https://yong-wang.org/slides/CHI23-Xiaolin-NFTDisk.pdf)
   </div>
+<div class="paper-year" aria-label="Year 2023">2023</div>
 </div>
 
 <div class='paper-box' data-categories='selected vis4fintech'>
@@ -487,6 +463,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 [PDF](./paperInfo/codewilltell.pdf)
 [Poster](./paperInfo/ponziposter.pdf)
   </div>
+<div class="paper-year" aria-label="Year 2023">2023</div>
 </div>
 
 <div class='paper-box' data-categories='vis4domain'>
@@ -506,6 +483,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [PDF](./paperInfo/diffseer.pdf)
   </div>
+<div class="paper-year" aria-label="Year 2023">2023</div>
 </div>
 
 <div class='paper-box' data-categories='vis4domain'>
@@ -526,6 +504,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [PDF](./paperInfo/warehouselens.pdf)
   </div>
+<div class="paper-year" aria-label="Year 2023">2023</div>
 </div>
 
 <div class='paper-box' data-categories='vis4fintech'>
@@ -546,6 +525,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
   [PDF](./paperInfo/EOS.pdf)
 
   </div>
+<div class="paper-year" aria-label="Year 2022">2022</div>
 </div>
 
 <div class='paper-box' data-categories='vis4domain'>
@@ -565,6 +545,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [PDF](./paperInfo/TriPlan.pdf)
   </div>
+<div class="paper-year" aria-label="Year 2022">2022</div>
 </div>
 
 <div class='paper-box' data-categories='vis4domain'>
@@ -585,6 +566,7 @@ Computer Graphics Forum (Proceedings of EuroVis 25). 2025.
 
   [PDF](./paperInfo/MDIVis.pdf)
   </div>
+<div class="paper-year" aria-label="Year 2022">2022</div>
 </div>
 
 <div class='paper-box' data-categories='vis4domain'>
@@ -604,6 +586,23 @@ Shangsong Liu, Di Peng, Haotian Zhu, <span class="me">Xiaolin Wen</span>, Xinyi 
 
   [PDF](./paperInfo/mulUBA.pdf)
   </div>
+<div class="paper-year" aria-label="Year 2021">2021</div>
+</div>
+
+<div class='paper-box' data-categories='books'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Book 2023</div><img src='paperInfo/big-data-visualization.jpg' alt="Big Data Visualization book cover" style="max-height: 220px; width: auto; max-width: 100%; object-fit: contain;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Big Data Visualization](http://m.cmpedu.com/books/book/5610359.htm)
+
+Min Zhu, Qihong Gan, and Hanbin Deng (eds.).
+
+<span class="me">Xiaolin Wen</span> — Contributing Author.
+
+China Machine Press, Beijing, 2023. (In Chinese.) ISBN: 978-7-111-72656-2.
+
+[Publisher](http://m.cmpedu.com/books/book/5610359.htm) [BibTeX](./paperInfo/big-data-visualization.bib)
+</div>
+<div class="paper-year" aria-label="Year 2023">2023</div>
 </div>
 
 </div>
@@ -614,16 +613,16 @@ Shangsong Liu, Di Peng, Haotian Zhu, <span class="me">Xiaolin Wen</span>, Xinyi 
 - *2025.11* CSIG 2025 Master’s Thesis Incentive Program, China Society of Image and Graphics (CSIG).
 - *2025.11* Best Paper Honorable Mention, IEEE Vis 2025.
 - *2025.04* Best Paper Honorable Mention, PacificVis 2025 Journal Track.
-- *2023.06* Research Star, College of Compueter Science, Sichuan University (5/319).
-- *2023.06* Excellent Graduation Thesis, College of Compueter Science, Sichuan University (5/319).
-- *2021.12* The First Price of Tencent Scholarship, Sichuan University. (3/319).
+- *2023.06* Research Star, College of Compueter Science, [Sichuan University](https://www.scu.edu.cn/) (5/319).
+- *2023.06* Excellent Graduation Thesis, College of Compueter Science, [Sichuan University](https://www.scu.edu.cn/) (5/319).
+- *2021.12* The First Price of Tencent Scholarship, [Sichuan University](https://www.scu.edu.cn/). (3/319).
 - *2021.06* The Award of Excellence, ChinaVis Challenge 2021. (27/77).
 - *2020.05* The Award of Excellence, ChinaVis Challenge 2020. (32/96).
 
 # 📖 Educations
 - *2025.01 - now*, Doctor of Philosophy (PhD) student in College of Computing & Data Science, Nanyang Technological University, Singapore. 
-- *2020.09 - 2023.06*, Master's Degree in Computer Science and Technology, Sichuan University, China.
-- *2016.09 - 2020.06*, Dual Bachelor's Degree in Computer Science and Technology & Financial Engineering, Sichuan University, China.
+- *2020.09 - 2023.06*, Master's Degree in Computer Science and Technology, [Sichuan University](https://www.scu.edu.cn/), China.
+- *2016.09 - 2020.06*, Dual Bachelor's Degree in Computer Science and Technology & Financial Engineering, [Sichuan University](https://www.scu.edu.cn/), China.
 
 # 🎓 Teaching Experience
 - *2026 Semester 2*, **Teaching Assistant**, SC3061 — Human Computer Interaction, NTU, Singapore.
@@ -632,9 +631,9 @@ Shangsong Liu, Di Peng, Haotian Zhu, <span class="me">Xiaolin Wen</span>, Xinyi 
 - *2025 Semester 2*, **Teaching Assistant**, SC1008 — C&C++ Programming, NTU, Singapore.
 
 # 💬 Invited Talks
-- *2026.06*, **From On-chain Signals to Trustworthy Insights: Visual Analytics for Cryptocurrency Fraud Sensemaking**, Sichuan University, China.
+- *2026.06*, **From On-chain Signals to Trustworthy Insights: Visual Analytics for Cryptocurrency Fraud Sensemaking**, [Sichuan University](https://www.scu.edu.cn/), China.
 - *2025.12*, **Intelligent Visual Analytics for Cryptocurrency Fraud Detection**, Nanjing University, China.
-- *2024.01*, **Visualization for Web3 Fraud Detection**, Sichuan University, China.
+- *2024.01*, **Visualization for Web3 Fraud Detection**, [Sichuan University](https://www.scu.edu.cn/), China.
 - *2023.09*, **Panel Discussion: On-chain Data and Web3 Security**, Singapore Management University, Singapore.
 
 

@@ -1,0 +1,616 @@
+- image: /images/life/2016-chengdu-aya.png
+  year: 2016
+  location: Chengdu
+  caption: With AYA.
+  alt: Two people posing together in front of a colorful graffiti wall.
+  shape: landscape
+
+- image: /images/life/2016-chengdu-dance-competition.png
+  year: 2016
+  location: Chengdu
+  caption: Performing at Sichuan University's “Feng Wu Chuan Da” Dance Competition.
+  alt: Dancers performing on stage in white shirts and dark vests.
+  shape: landscape
+
+- image: /images/life/2018-chengdu-wenxiaolin-graffiti.png
+  year: 2018
+  location: Chengdu
+  caption: WenXiaoLin graffiti.
+  alt: Green, orange, purple, and black graffiti lettering on a sketchbook page.
+  shape: landscape
+
+- image: /images/life/2017-dandong-teacher-jia.png
+  year: 2017
+  location: Dandong
+  caption: With Teacher Jia.
+  alt: Two people wearing black T-shirts and caps posing together indoors.
+  shape: landscape
+
+- image: /images/life/2017-chengdu-blue-light.png
+  year: 2017
+  location: Chengdu
+  alt: A person in a cap and light-colored jacket under blue lighting.
+  shape: landscape
+
+- image: /images/life/2018-sichuan-hailuogou.png
+  year: 2018
+  location: Hailuogou, Sichuan
+  alt: A person with outstretched arms beside a stream in a snow-covered mountain landscape.
+  shape: landscape
+
+- image: /images/life/2018-chengdu-may-breeze.png
+  year: 2018
+  location: Chengdu
+  caption: Top 8 at the “May Breeze” Chengdu Intercollegiate Street Dance League.
+  alt: A black-and-white photograph of a dancer performing on stage with one arm raised.
+  shape: portrait
+
+- image: /images/life/2018-chengdu-first-krump.png
+  year: 2018
+  location: Chengdu
+  caption: My first time dancing Krump.
+  alt: A group practicing dance moves together in a studio.
+  shape: landscape
+
+- image: /images/life/2018-chengdu-own-studio.png
+  year: 2018
+  location: Chengdu
+  caption: Dancing at my own studio.
+  alt: A dancer in a red striped shirt performing in a studio surrounded by other dancers.
+  shape: landscape
+
+- image: /images/life/2018-chengdu-line-dance-champions.png
+  year: 2018
+  location: Chengdu
+  caption: Sichuan Champions at the “Dancing China” Line Dance League!
+  alt: A dance team posing with a Sichuan University flag in front of the competition backdrop.
+  shape: landscape
+
+- image: /images/life/2018-chengdu-dance-practice.png
+  year: 2018
+  location: Chengdu
+  caption: Everyday dance practice.
+  alt: A person wearing a black bandana and T-shirt during dance practice.
+  shape: portrait
+
+- image: /images/life/2018-chengdu-dance-practice-plaid.png
+  year: 2018
+  location: Chengdu
+  caption: Everyday dance practice.
+  alt: A person wearing a bucket hat and a plaid shirt posing in a dance studio.
+  shape: square
+
+- image: /images/life/2018-chengdu-dance-carnival.png
+  year: 2018
+  location: Chengdu
+  caption: Top 16 in Freestyle at the Dance Carnival.
+  alt: Two dancers wearing medals and holding competition certificates outdoors at night.
+  shape: square
+
+- year: 2018
+  location: Chengdu
+  caption: Playing Sun Wukong in “A Chinese Odyssey” for International Week!
+  shape: landscape
+  image: "/images/life/2018-chengdu-international-week-1.png"
+  alt: Posing in a Sun Wukong costume beside a mirror.
+
+- year: 2018
+  location: Chengdu
+  caption: Playing Sun Wukong in “A Chinese Odyssey” for International Week!
+  shape: landscape
+  image: "/images/life/2018-chengdu-international-week-2.png"
+  alt: Another portrait in a Sun Wukong costume beside a mirror.
+
+- year: 2018
+  location: Chengdu
+  caption: Playing Sun Wukong in “A Chinese Odyssey” for International Week!
+  shape: landscape
+  image: "/images/life/2018-chengdu-international-week-3.png"
+  alt: Performing as Sun Wukong on stage during International Week.
+
+- year: 2018
+  caption: My first time modeling.
+  shape: landscape
+  image: "/images/life/2018-first-modeling-1.png"
+  alt: Modeling in a beige jacket, bandana, and tinted sunglasses.
+
+- year: 2018
+  caption: My first time modeling.
+  shape: landscape
+  image: "/images/life/2018-first-modeling-2.png"
+  alt: A modeling photo collage featuring a beige jacket and a night market setting.
+
+- image: /images/life/2018-dandong-fenghuang-mountain.png
+  year: 2018
+  location: Fenghuang Mountain, Dandong
+  alt: Sitting on a rock beside a railing at a misty mountain viewpoint.
+  shape: landscape
+
+- image: /images/life/2018-chengdu-photo-shoot.png
+  year: 2018
+  location: Chengdu
+  caption: Photo shoot.
+  alt: Posing in a dark blazer and silver necklace against a light wall.
+  shape: square
+
+- year: 2018
+  location: Chengdu
+  caption: Led the team as captain to two national titles at the “Dancing China” Line
+    Dance League!
+  shape: landscape
+  image: "/images/life/2018-chengdu-national-line-dance-champions-1.png"
+  alt: The dance team posing with a Sichuan University flag outside the national finals
+    venue.
+
+- year: 2018
+  location: Chengdu
+  caption: Led the team as captain to two national titles at the “Dancing China” Line
+    Dance League!
+  shape: landscape
+  image: "/images/life/2018-chengdu-national-line-dance-champions-2.png"
+  alt: Holding two championship trophies while wearing a black hoodie and cap.
+
+- year: 2018
+  location: Chengdu
+  caption: Led the team as captain to two national titles at the “Dancing China” Line
+    Dance League!
+  shape: landscape
+  image: "/images/life/2018-chengdu-national-line-dance-champions-3.png"
+  alt: A red trophy and a blue trophy from the national line dance competition.
+
+- image: /images/life/2018-chengdu-street-dance-instructor.png
+  year: 2018
+  location: Chengdu
+  caption: My first time teaching street dance for Sichuan University's “Mingyuan Qihang” program.
+  alt: A street dance class posing together in a bright mirrored dance studio.
+  shape: landscape
+
+- image: /images/life/2019-dandong-snowboarding.png
+  year: 2019
+  location: Dandong
+  caption: Snowboarding.
+  alt: Two snowboarders posing on a snowy slope with mountains in the background.
+  shape: portrait
+
+- image: /images/life/2019-chengdu-sketching.png
+  year: 2019
+  location: Chengdu
+  caption: Sketching.
+  alt: A hand holding a shaded sketch of a jug in a classroom.
+  shape: square
+
+- image: /images/life/2019-chengdu-photo-shoot.png
+  year: 2019
+  location: Chengdu
+  caption: Photo shoot.
+  alt: A portrait with blue futuristic graphics over one eye and a silver chain necklace.
+  shape: portrait
+
+- image: /images/life/2019-chengdu-bouboo.png
+  year: 2019
+  location: Chengdu
+  caption: Dancing with BouBoo!
+  alt: Two people posing together outdoors beneath a canopy.
+  shape: square
+
+- image: /images/life/2019-chengdu-marquest.png
+  year: 2019
+  location: Chengdu
+  caption: Dancing with Marquest!
+  alt: Three people posing together in a dance studio.
+  shape: landscape
+
+- year: 2019
+  location: Thailand
+  caption: My first scuba dive!
+  shape: landscape
+  image: "/images/life/2019-thailand-first-scuba-dive-1.png"
+  alt: A scuba diver with a yellow mask making a peace sign underwater.
+
+- year: 2019
+  location: Thailand
+  caption: My first scuba dive!
+  shape: landscape
+  image: "/images/life/2019-thailand-first-scuba-dive-2.png"
+  alt: An underwater portrait of a scuba diver wearing a yellow mask and black diving
+    equipment.
+
+- year: 2020
+  location: Dandong
+  caption: New haircut.
+  shape: square
+  image: "/images/life/2020-dandong-new-haircut-1.png"
+  alt: A portrait with wavy hair and a black blazer against a light wall.
+
+- year: 2020
+  location: Dandong
+  caption: New haircut.
+  shape: square
+  image: "/images/life/2020-dandong-new-haircut-2.png"
+  alt: A portrait with swept-back hair and a black blazer against a light wall.
+
+- image: /images/life/2020-chengdu-scu-graduation.png
+  year: 2020
+  location: Chengdu
+  caption: Graduated from Sichuan University!
+  alt: Four Sichuan University certificate covers, two green and two red, arranged together.
+  shape: square
+
+- image: /images/life/2020-xian-chinavis-award.png
+  year: 2020
+  location: Xi’an
+  caption: Excellence Award at the ChinaVis Data Visualization Challenge!
+  alt: An open ChinaVis 2020 award certificate in a blue presentation folder.
+  shape: square
+
+- image: /images/life/2020-chengdu-dance-club-recruitment.png
+  year: 2020
+  location: Chengdu
+  caption: Welcoming new members to our street dance club!
+  alt: A large group posing on stage in front of a club recruitment backdrop.
+  shape: landscape
+
+- image: /images/life/2020-chengdu-photo-shoot.png
+  year: 2020
+  location: Chengdu
+  caption: Photo shoot.
+  alt: A black-and-white outdoor portrait wearing sunglasses, a dark blazer, and a chain necklace.
+  shape: portrait
+
+- image: /images/life/2021-chengdu-teaching-street-dance.png
+  year: 2021
+  location: Chengdu
+  caption: Teaching a street dance class.
+  alt: A portrait wearing a black cap and making a peace sign in dim lighting.
+  shape: square
+
+- image: /images/life/2021-chengdu-teaching.png
+  year: 2021
+  location: Chengdu
+  caption: Teaching.
+  alt: A selfie wearing a black cap, face mask, and backpack at a metro station.
+  shape: square
+
+- image: /images/life/2021-chengdu-lab-party.png
+  year: 2021
+  location: Chengdu
+  caption: Performing at our lab party.
+  alt: A person wearing a geometric bear mask and giving two thumbs up in a lab office.
+  shape: portrait
+
+- image: /images/life/2020-chengdu-photo-shoot-striped-shirt.png
+  year: 2020
+  location: Chengdu
+  caption: Photo shoot.
+  alt: A portrait wearing a brown striped shirt against a dark paneled background.
+  shape: square
+
+- image: /images/life/2021-wuhan-chinavis.png
+  year: 2021
+  location: Wuhan
+  caption: Attending ChinaVis!
+  alt: A pink and purple ChinaVis 2021 guest badge.
+  shape: portrait
+
+- image: /images/life/2018-chengdu-mingyuan-course-finale.png
+  year: 2018
+  location: Chengdu
+  caption: Wrapping up my street dance course for Sichuan University's “Mingyuan Qihang” program!
+  alt: A dance class posing outdoors around a dancer performing a headstand.
+  shape: landscape
+
+- year: 2021
+  location: SUSTech
+  caption: Visiting Southern University of Science and Technology!
+  shape: square
+  image: "/images/life/2021-sustech-visit-1.png"
+  alt: A nighttime selfie giving a thumbs up while wearing a university lanyard.
+
+- year: 2021
+  location: SUSTech
+  caption: Visiting Southern University of Science and Technology!
+  shape: square
+  image: "/images/life/2021-sustech-visit-2.png"
+  alt: A SUSTech visiting student badge with its ID number and QR code obscured.
+
+- image: /images/life/2022-singapore-first-ieee-vis-submission.png
+  year: 2022
+  location: Singapore
+  caption: My first submission to IEEE VIS!
+  alt: Four people posing together for a group selfie in a bright office.
+  shape: landscape
+
+- image: /images/life/2022-singapore-merlion.png
+  year: 2022
+  location: Singapore
+  caption: The Merlion!
+  alt: The illuminated Merlion at night with Marina Bay Sands across the water.
+  shape: landscape
+
+- image: /images/life/2022-singapore-merlion-portrait.png
+  year: 2022
+  location: Singapore
+  caption: The Merlion!
+  alt: Posing beside the waterfront at night with the Merlion and illuminated skyscrapers behind.
+  shape: portrait
+
+- image: /images/life/2022-singapore-bukit-timah.png
+  year: 2022
+  location: Singapore
+  caption: Hiking to Bukit Timah, Singapore’s highest point!
+  alt: Six hikers posing behind the Bukit Timah Summit stone marker surrounded by trees.
+  shape: landscape
+
+- image: /images/life/2022-indonesia-atv.png
+  year: 2022
+  location: Indonesia
+  alt: A person sitting on a red ATV beside a camel cutout on sandy terrain.
+  shape: landscape
+
+- image: /images/life/2022-indonesia-sunset.png
+  year: 2022
+  location: Indonesia
+  alt: A silhouette looking out over the water beneath a colorful sunset sky.
+  shape: landscape
+
+- image: /images/life/2023-hamburg-chi.png
+  year: 2023
+  location: Hamburg, Germany
+  caption: Attending CHI!
+  alt: Three attendees wearing conference badges posing together in a busy conference venue.
+  shape: landscape
+
+- image: /images/life/2023-hamburg-chi-waterfront.png
+  year: 2023
+  location: Hamburg, Germany
+  caption: Attending CHI!
+  alt: A person wearing a conference badge beside the waterfront at dusk, with city lights reflected in the water.
+  shape: landscape
+
+- image: /images/life/2023-hamburg-chi-presentation.png
+  year: 2023
+  location: Hamburg, Germany
+  caption: Attending CHI!
+  alt: A presenter standing at a lectern with a research presentation projected behind.
+  shape: landscape
+
+- image: /images/life/2023-chengdu-masters-graduation.png
+  year: 2023
+  location: Chengdu
+  caption: Graduated with my master’s degree!
+  alt: Graduates in blue gowns tossing their caps in front of the Sichuan University gate.
+  shape: landscape
+
+- image: /images/life/2023-chengdu-masters-graduation-bouquets.png
+  year: 2023
+  location: Chengdu
+  caption: Graduated with my master’s degree!
+  alt: Graduates in blue gowns posing with bouquets on a wooden deck, with one bouquet held overhead.
+  shape: portrait
+
+- image: /images/life/2023-chengdu-masters-graduation-suit.png
+  year: 2023
+  location: Chengdu
+  caption: Graduated with my master’s degree!
+  alt: A portrait in a black suit and tie standing beside teal lockers.
+  shape: portrait
+
+- image: /images/life/2023-qinghai-chaka-salt-lake.png
+  year: 2023
+  location: Qinghai
+  caption: Chaka Salt Lake!
+  alt: A person posing on a reflective salt lake beneath a blue sky, with mountains in the distance.
+  shape: landscape
+
+- image: /images/life/2023-dunhuang-camel-riding.png
+  year: 2023
+  location: Dunhuang
+  caption: Camel riding!
+  alt: A rider's view from a camel with a long caravan crossing desert dunes under a clear blue sky.
+  shape: portrait
+
+- image: /images/life/2023-dunhuang-camel-riding-portrait.png
+  year: 2023
+  location: Dunhuang
+  caption: Camel riding!
+  alt: A rider with outstretched arms sitting on a camel among desert dunes under a clear blue sky.
+  shape: portrait
+
+- image: /images/life/2023-dunhuang-sand-dunes.png
+  year: 2023
+  location: Dunhuang
+  alt: A person standing with outstretched arms on sand dunes beneath a clear blue sky.
+  shape: landscape
+
+- image: /images/life/2023-qinghai-prayer-flags.png
+  year: 2023
+  location: Qinghai
+  alt: A person standing on a rock beneath a canopy of colorful prayer flags.
+  shape: portrait
+
+- image: /images/life/2023-smu-first-invited-talk.png
+  year: 2023
+  location: SMU
+  caption: My first invited talk!
+  alt: Five panelists seated on stage at an SMU forum, with one speaking into a microphone.
+  shape: landscape
+
+- image: /images/life/2023-smu-first-invited-talk-news.png
+  year: 2023
+  location: SMU
+  caption: My first invited talk!
+  alt: An SMU news article about on-chain data analysis and Web3 security featuring a panel discussion photo.
+  shape: square
+
+- year: 2024
+  location: Chengdu
+  caption: My first contribution to a book!
+  shape: portrait
+  image: "/images/life/2024-chengdu-first-book-contribution-1.png"
+  alt: The title page of Big Data Visualization listing its editors and contributors.
+
+- year: 2024
+  location: Chengdu
+  caption: My first contribution to a book!
+  shape: portrait
+  image: "/images/life/2024-chengdu-first-book-contribution-2.png"
+  alt: A China Machine Press award plaque for the book Big Data Visualization.
+
+- image: /images/life/2024-singapore-fort-canning-park.png
+  year: 2024
+  location: Singapore
+  caption: Fort Canning Park!
+  alt: A person standing on the green lawn in front of Fort Canning Centre beneath a cloudy sky.
+  shape: portrait
+
+- image: /images/life/2024-singapore-ieee-vis-submission.png
+  year: 2024
+  location: Singapore
+  caption: Submitting to IEEE VIS!
+  alt: Six people standing together for a group photo in an office.
+  shape: landscape
+
+- image: /images/life/2024-singapore-joining-ntu.png
+  year: 2024
+  location: Singapore
+  caption: Joining NTU!
+  alt: A person posing beside the Nanyang Technological University sign and crest.
+  shape: portrait
+
+- image: /images/life/2024-malaysia-go-karting.png
+  year: 2024
+  location: Malaysia
+  caption: Go-karting!
+  alt: A selfie wearing a colorful racing helmet and giving a thumbs up beside a go-kart track.
+  shape: landscape
+
+- image: /images/life/2024-thailand-shooting-range.png
+  year: 2024
+  location: Thailand
+  caption: Live-fire shooting!
+  alt: A person wearing yellow hearing protection and holding a firearm at a shooting range.
+  shape: portrait
+
+- image: /images/life/2024-singapore-first-ntu-dance-performance.png
+  year: 2024
+  location: Singapore
+  caption: My first dance performance at NTU!
+  alt: A group selfie at an indoor event with red festive decorations.
+  shape: landscape
+
+- image: /images/life/2025-taiwan-pacificvis-honorable-mention.png
+  year: 2025
+  location: Taiwan
+  caption: My first Best Paper Honorable Mention at IEEE PacificVis!
+  alt: An IEEE Pacific Visualization 2025 Journal Track Honorable Mention certificate for PrettiSmart.
+  shape: landscape
+
+- image: /images/life/2025-australia-feeding-kangaroos.png
+  year: 2025
+  location: Australia
+  caption: Feeding kangaroos!
+  alt: A person feeding a kangaroo by hand among several kangaroos on a grassy area surrounded by trees.
+  shape: portrait
+
+- image: /images/life/2025-singapore-ntu-sunset.png
+  year: 2025
+  location: Singapore
+  caption: Sunset at NTU.
+  alt: Orange sunset clouds above NTU campus buildings and rooftops.
+  shape: landscape
+
+- image: /images/life/2025-vienna-vis-honorable-mention.png
+  year: 2025
+  location: Vienna
+  caption: My first Best Paper Honorable Mention at IEEE VIS!
+  alt: An IEEE VIS 2025 Best Paper Honorable Mention Award certificate in a blue folder.
+  shape: landscape
+
+- image: /images/life/2025-vienna-vis-presentation.png
+  year: 2025
+  location: Vienna
+  caption: Presenting at IEEE VIS!
+  alt: A presenter at a lectern beside the Envisage title slide at IEEE VIS 2025.
+  shape: landscape
+
+- image: /images/life/2025-vienna-vis-ponzilens-presentation.png
+  year: 2025
+  location: Vienna
+  caption: Presenting at IEEE VIS!
+  alt: A presenter speaking at a lectern beneath the PonziLens+ title slide at IEEE VIS 2025.
+  shape: landscape
+
+- image: /images/life/2025-vienna-paper-discussion.png
+  year: 2025
+  location: Vienna
+  caption: The first time an audience member asked such thoughtful, detailed questions about my paper.
+  alt: An open notebook filled with handwritten research notes and graph query diagrams.
+  shape: portrait
+
+- image: /images/life/2025-vienna-lake-district.png
+  year: 2025
+  location: Vienna
+  caption: Exploring the lake district.
+  alt: A silhouette with outstretched arms beside a lake surrounded by snow-covered mountains.
+  shape: landscape
+
+- image: /images/life/2025-vienna-wind-turbines.png
+  year: 2025
+  location: Vienna
+  alt: Sunbeams breaking through clouds above a landscape dotted with wind turbines.
+  shape: landscape
+
+- image: /images/life/2025-hungary-parliament.png
+  year: 2025
+  location: Hungary
+  alt: The illuminated Hungarian Parliament Building at night with golden reflections on the river.
+  shape: portrait
+
+- image: /images/life/2025-slovakia-blue-church.png
+  year: 2025
+  location: Slovakia
+  alt: A pale blue church with a tall clock tower beneath a partly cloudy sky.
+  shape: portrait
+
+- image: /images/life/2025-sydney-first-best-paper.png
+  year: 2025
+  location: Sydney
+  caption: My first Best Paper Award!
+  alt: A framed IEEE PacificVis 2026 Conference Track Best Paper Award certificate.
+  shape: landscape
+
+- image: /images/life/2025-guangzhou-csig-thesis-award.png
+  year: 2025
+  location: Guangzhou
+  caption: CSIG Outstanding Master’s Thesis Award!
+  alt: A CSIG 2025 master's thesis recognition certificate held in a crowded conference hall.
+  shape: portrait
+
+- image: /images/life/2025-guangzhou-csig-thesis-award-ceremony.png
+  year: 2025
+  location: Guangzhou
+  caption: CSIG Outstanding Master’s Thesis Award!
+  alt: Award recipients and advisors posing on stage at the CSIG 2025 award ceremony.
+  shape: landscape
+
+- year: 2026
+  location: Shenzhen
+  caption: Tencent Rhino-Bird Elite Study Camp.
+  shape: landscape
+  image: "/images/life/2026-shenzhen-tencent-study-camp.png"
+  alt: Participants posing with a Tencent Rhino-Bird Elite Study Camp banner in front
+    of a blue welcome screen.
+
+- image: /images/life/2026-shenzhen-tencent-study-camp-trophy.png
+  year: 2026
+  location: Shenzhen
+  caption: Tencent Rhino-Bird Elite Study Camp.
+  alt: A hand holding a silver runner-up trophy decorated with red, white, and blue ribbons.
+  shape: portrait
+
+- image: /images/life/2026-shenzhen-tencent-study-camp-curling.png
+  year: 2026
+  location: Shenzhen
+  caption: Tencent Rhino-Bird Elite Study Camp.
+  alt: A participant crouching to slide a floor curling stone while other participants watch.
+  shape: landscape
