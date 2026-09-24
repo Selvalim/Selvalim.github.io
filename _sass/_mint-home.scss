@@ -240,10 +240,6 @@ $mint-shadow: 0 14px 30px -20px rgba(43, 84, 70, 0.35),
     &__year { color: #617c6d; font-size: 10px; margin-top: 5px; }
     .scholar-stats__updated { margin: 8px 0 0; text-align: center; font-size: 10px; color: #617c6d; }
   }
-  .publication-stats {
-    position: relative;
-    margin-top: 10px;
-  }
   .visitor-map {
     .mapmyvisitors-date, .mapmyvisitors-visitors { display: none !important; }
     width: 100%;
