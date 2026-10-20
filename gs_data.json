@@ -1,6 +1,6 @@
 {
   "author_id": "qN8hC60AAAAJ",
-  "updated": "2026-10-18T12:14:56.452714+00:00",
+  "updated": "2026-10-20T13:07:23.862022+00:00",
   "citedby": 210,
   "cites_per_year": {
     "2022": 11,
@@ -155,6 +155,12 @@
       "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:5nxA0vEk-isC"
     },
     {
+      "title": "ActSoon: Intelligent Aircraft Taxiing Scheduling through Integrated Spatio-Temporal Visual Analytics",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:ULOm3_A8WrAC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:ULOm3_A8WrAC"
+    },
+    {
       "title": "Visualization for Quantum Computing: Current State and Future Directions",
       "num_citations": 0,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:3fE2CSJIrl8C",
@@ -165,12 +171,6 @@
       "num_citations": 0,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:W7OEmFMy1HYC",
       "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:W7OEmFMy1HYC"
-    },
-    {
-      "title": "ActSoon: Intelligent Aircraft Taxiing Scheduling through Integrated Spatio-Temporal Visual Analytics",
-      "num_citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:ULOm3_A8WrAC",
-      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:ULOm3_A8WrAC"
     }
   ]
 }
