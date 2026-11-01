@@ -1,13 +1,13 @@
 {
   "author_id": "qN8hC60AAAAJ",
-  "updated": "2026-10-28T14:39:44.712977+00:00",
-  "citedby": 210,
+  "updated": "2026-11-01T14:36:24.031507+00:00",
+  "citedby": 214,
   "cites_per_year": {
     "2022": 11,
     "2023": 20,
     "2024": 39,
-    "2025": 58,
-    "2026": 80
+    "2025": 57,
+    "2026": 83
   },
   "publications": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "title": "MDIVis: Visual analytics of multiple destination images on tourism user generated content",
-      "num_citations": 27,
+      "num_citations": 28,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:2osOgNQ5qMEC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13078511955160362951"
     },
@@ -30,7 +30,7 @@
     },
     {
       "title": "TriPlan: an interactive visual analytics approach for better tourism route planning: X. Zhang et al.",
-      "num_citations": 20,
+      "num_citations": 21,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:UeHWp8X0CEIC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3925227775812259054"
     },
@@ -48,7 +48,7 @@
     },
     {
       "title": "Ponzilens+: Visualizing bytecode actions for smart ponzi scheme identification",
-      "num_citations": 11,
+      "num_citations": 12,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:eQOLeE2rZwMC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5890802816689518350"
     },
@@ -107,6 +107,12 @@
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1883088717379002294"
     },
     {
+      "title": "InconLens: Interactive Visual Diagnosis of Behavioral Inconsistencies in LLM-based Agentic Systems",
+      "num_citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:5nxA0vEk-isC",
+      "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4614582425737611235"
+    },
+    {
       "title": "From Static to Interactive: Authoring Interactive Visualizations via Natural Language",
       "num_citations": 1,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:hqOjcs7Dif8C",
@@ -147,12 +153,6 @@
       "num_citations": 0,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:MXK_kJrjxJIC",
       "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:MXK_kJrjxJIC"
-    },
-    {
-      "title": "InconLens: Interactive Visual Diagnosis of Behavioral Inconsistencies in LLM-based Agentic Systems",
-      "num_citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:5nxA0vEk-isC",
-      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:5nxA0vEk-isC"
     },
     {
       "title": "ActSoon: Intelligent Aircraft Taxiing Scheduling through Integrated Spatio-Temporal Visual Analytics",
