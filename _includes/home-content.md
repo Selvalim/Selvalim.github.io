@@ -21,6 +21,7 @@ Email: [xiaolin004@e.ntu.edu.sg](mailto:xiaolin004@e.ntu.edu.sg)
 
 # 🔥 News
 <div class="news-card" markdown="1">
+- *2026.10*: 📜 **DFCollection** and **Visualization for Quantum Computing: Current State and Future Directions** have been accepted by **Visual Informatics (VI)** and **IEEE TVCG**, respectively!
 - *2026.08*: 🎓 Passed the Ph.D. Qualifying Examination and became a **Ph.D. candidate**!
 - *2026.08*: 📜 **EvoMaestro** is accepted by **UIST 2026**!
 - *2026.08*: 🎓 Invited to attend the **Tencent Rhino-Bird Elite Study Camp**!
@@ -198,6 +199,20 @@ IEEE Transactions on Visualization and Computer Graphics (Proc. VIS). 2025.
 <div class="paper-year" aria-label="Year 2025">2025</div>
 </div> 
 
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">VI 2026</div><img src='paperInfo/DFCollection.png' alt="DFCollection interface showing the Collection View, Collection-Fact View, Fact View, and Fact Gallery" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DFCollection: Scalable and Hierarchical Visual Exploration of Data Facts](https://doi.org/10.1016/j.visinf.2026.100376)
+
+Yikai Li, <span class="me">Xiaolin Wen</span>, Qiaomu Shen, Yong Wang.
+
+Visual Informatics, 2026.
+
+[PDF](./paperInfo/DFCollection.pdf) [DOI](https://doi.org/10.1016/j.visinf.2026.100376) [Code](https://github.com/lyk6666/DFCollection)
+</div>
+<div class="paper-year" aria-label="Year 2026">2026</div>
+</div>
+
 <div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/SAVVY.png' alt="SAVVY system overview for student attention analysis" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -313,12 +328,14 @@ ACM Transactions on Software Engineering and Methodology (TOSEM), 2026.
 <div class="paper-year" aria-label="Year 2026">2026</div>
 </div> 
 
-<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">Under review</div><img src='paperInfo/vis4qc-survey.png' alt="vis4qc-survey" width="100%"></div></div>
+<div class='paper-box' data-categories='vis4domain'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TVCG 2026</div><img src='paperInfo/vis4qc-survey.png' alt="vis4qc-survey" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Visualization for Quantum Computing: Current State and Future Directions](https://www.researchgate.net/publication/404040113_Visualization_for_Quantum_Computing_Current_State_and_Future_Directions)
 
 Feng Liang, <span class="me">Xiaolin Wen</span>, Shixian Zhou, Shaolun Ruan, Yuxuan Du, Qiang Guan, Jun Ye, and Yong Wang
+
+IEEE Transactions on Visualization and Computer Graphics (TVCG), accepted, 2026.
 
 [PDF](./paperInfo/vis4qc-survey.pdf) [ResearchGate](https://www.researchgate.net/publication/404040113_Visualization_for_Quantum_Computing_Current_State_and_Future_Directions)
 </div>
