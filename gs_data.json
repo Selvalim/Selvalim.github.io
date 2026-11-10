@@ -1,18 +1,18 @@
 {
   "author_id": "qN8hC60AAAAJ",
-  "updated": "2026-11-03T15:35:27.582474+00:00",
-  "citedby": 214,
+  "updated": "2026-11-10T15:54:38.869759+00:00",
+  "citedby": 216,
   "cites_per_year": {
     "2022": 11,
     "2023": 20,
     "2024": 39,
     "2025": 57,
-    "2026": 83
+    "2026": 85
   },
   "publications": [
     {
       "title": "Nftdisk: Visual detection of wash trading in nft markets",
-      "num_citations": 51,
+      "num_citations": 52,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:u-x6o8ySG0sC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6549485696637866535"
     },
@@ -54,7 +54,7 @@
     },
     {
       "title": "Qualitative study for LLM-assisted design study process: Strategies, challenges, and roles",
-      "num_citations": 7,
+      "num_citations": 8,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:Se3iqnhoufwC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16132869886897511834"
     },
@@ -123,6 +123,12 @@
       "num_citations": 1,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:Y0pCki6q_DkC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13413568744862795471"
+    },
+    {
+      "title": "DFCollection: Scalable and hierarchical visual exploration of data facts",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:4TOpqqG69KYC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:4TOpqqG69KYC"
     },
     {
       "title": "EvoMaestro: Toward Interpretable and Steerable LLM-Driven Program Evolution",
