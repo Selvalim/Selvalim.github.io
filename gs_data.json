@@ -1,12 +1,12 @@
 {
   "author_id": "qN8hC60AAAAJ",
-  "updated": "2026-11-13T15:46:26.504053+00:00",
-  "citedby": 216,
+  "updated": "2026-11-18T16:48:09.868923+00:00",
+  "citedby": 217,
   "cites_per_year": {
     "2022": 11,
     "2023": 20,
     "2024": 39,
-    "2025": 57,
+    "2025": 58,
     "2026": 85
   },
   "publications": [
@@ -18,7 +18,7 @@
     },
     {
       "title": "MDIVis: Visual analytics of multiple destination images on tourism user generated content",
-      "num_citations": 28,
+      "num_citations": 29,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:2osOgNQ5qMEC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13078511955160362951"
     },
