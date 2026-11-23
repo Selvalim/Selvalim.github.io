@@ -1,13 +1,13 @@
 {
   "author_id": "qN8hC60AAAAJ",
-  "updated": "2026-11-19T16:54:16.660698+00:00",
+  "updated": "2026-11-23T19:37:01.070869+00:00",
   "citedby": 217,
   "cites_per_year": {
     "2022": 11,
     "2023": 20,
     "2024": 39,
-    "2025": 58,
-    "2026": 85
+    "2025": 59,
+    "2026": 84
   },
   "publications": [
     {
@@ -123,6 +123,12 @@
       "num_citations": 1,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:Y0pCki6q_DkC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13413568744862795471"
+    },
+    {
+      "title": "Presenting Your Figures: Data-informed Animated Transitions Across Scientific Figure Panels",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:M3ejUd6NZC8C",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:M3ejUd6NZC8C"
     },
     {
       "title": "DFCollection: Scalable and hierarchical visual exploration of data facts",
