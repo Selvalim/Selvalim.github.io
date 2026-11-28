@@ -1,6 +1,6 @@
 {
   "author_id": "qN8hC60AAAAJ",
-  "updated": "2026-11-27T17:42:33.668661+00:00",
+  "updated": "2026-11-28T16:28:24.962072+00:00",
   "citedby": 217,
   "cites_per_year": {
     "2022": 11,
@@ -123,6 +123,12 @@
       "num_citations": 1,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:Y0pCki6q_DkC",
       "citations_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13413568744862795471"
+    },
+    {
+      "title": "DataRecycle: Trustworthy Distillation of Structured Data from Scattered Web Evidence",
+      "num_citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:qxL8FJ1GzNcC",
+      "citations_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN8hC60AAAAJ&pagesize=100&citation_for_view=qN8hC60AAAAJ:qxL8FJ1GzNcC"
     },
     {
       "title": "Presenting Your Figures: Data-informed Animated Transitions Across Scientific Figure Panels",
